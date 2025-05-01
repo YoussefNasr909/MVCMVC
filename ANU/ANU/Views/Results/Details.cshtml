@@ -1,0 +1,58 @@
+@model IEnumerable<Result>
+@{
+    ViewData["Title"] = "Detailed Results";
+    ViewData["HeaderClass"] = "sub-header";
+    ViewData["HeaderContent"] = "<h1>Detailed Results</h1>";
+}
+
+<section class="about-us">
+    <div class="results-container">
+        <h1>Detailed Results for @ViewBag.StudentName</h1>
+        <h3>@ViewBag.Semester</h3>
+        
+        @foreach (var result in Model)
+        {
+            <div class="result-card">
+                <h2>@result.CourseName (@result.CourseCode)</h2>
+                <div class="result-details">
+                    <div class="result-item">
+                        <span>Final Grade:</span>
+                        <strong>@result.Grade (@result.GPA)</strong>
+                    </div>
+                    
+                    <div class="result-breakdown">
+                        <h4>Grade Breakdown</h4>
+                        <div class="breakdown-item">
+                            <span>Midterm:</span>
+                            <span>@result.MidtermMark / @result.MidtermTotal</span>
+                        </div>
+                        <div class="breakdown-item">
+                            <span>Assignments:</span>
+                            <span>@result.AssignmentsMark / @result.AssignmentsTotal</span>
+                        </div>
+                        <div class="breakdown-item">
+                            <span>Practical:</span>
+                            <span>@result.PracticalMark / @result.PracticalTotal</span>
+                        </div>
+                        <div class="breakdown-item">
+                            <span>Final Exam:</span>
+                            <span>@result.FinalExamMark / @result.FinalExamTotal</span>
+                        </div>
+                        <div class="breakdown-item total">
+                            <span>Total:</span>
+                            <span>@result.TotalMark / @result.TotalPossible</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        }
+        
+        <div class="summary">
+            <p><strong>Semester GPA:</strong> @ViewBag.SemesterGPA</p>
+            <p><strong>Cumulative GPA:</strong> @ViewBag.CumulativeGPA</p>
+        </div>
+        
+        <a href="#" class="btn">Download Results</a>
+        <a asp-controller="Results" asp-action="Index" class="btn">Back to Search</a>
+    </div>
+</section>

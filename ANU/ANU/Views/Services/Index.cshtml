@@ -1,0 +1,23 @@
+@model IEnumerable<Service>
+@{
+    ViewData["Title"] = "Student Services";
+    ViewData["HeaderClass"] = "sub-header";
+    ViewData["HeaderContent"] = "<h1>Student Services</h1>";
+}
+
+<section class="facil">
+    <h1>Our Services</h1>
+    <p>Assiut University offers a wide range of services to support students throughout their academic journey.</p>
+    
+    <div class="row">
+        @foreach (var service in Model)
+        {
+            <div class="facili-col">
+                <img src="@service.ImageUrl">
+                <h3>@service.Name</h3>
+                <p>@service.Description</p>
+                <a asp-controller="Services" asp-action="Details" asp-route-id="@service.Id" class="btn">Learn More</a>
+            </div>
+        }
+    </div>
+</section>

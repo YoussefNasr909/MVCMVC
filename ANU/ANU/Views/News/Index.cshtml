@@ -1,0 +1,43 @@
+@model IEnumerable<NewsItem>
+@{
+    ViewData["Title"] = "News";
+    ViewData["HeaderClass"] = "sub-header";
+    ViewData["HeaderContent"] = "<h1>University News</h1>";
+}
+
+<section class="fac">
+    <h1>Latest News</h1>
+    <p>Stay updated with the latest news and events at Assiut National University.</p>
+    
+    <div class="news-grid">
+        @foreach (var news in Model)
+        {
+            <div class="news-card">
+                <img src="@news.ImageUrl" alt="@news.Title">
+                <div class="news-content">
+                    <h3>@news.Title</h3>
+                    <p class="news-date">@news.PublishedDate.ToString("MMMM dd, yyyy")</p>
+                    <p>@news.Summary</p>
+                    <a asp-controller="News" asp-action="Details" asp-route-id="@news.Id" class="btn">Read More</a>
+                </div>
+            </div>
+        }
+    </div>
+    
+    <div class="pagination">
+        @if (ViewBag.CurrentPage > 1)
+        {
+            <a asp-controller="News" asp-action="Index" asp-route-page="@(ViewBag.CurrentPage - 1)" class="btn">Previous</a>
+        }
+        
+        @for (int i = 1; i <= ViewBag.TotalPages; i++)
+        {
+            <a asp-controller="News" asp-action="Index" asp-route-page="@i" class="btn @(ViewBag.CurrentPage == i ? "active" : "")">@i</a>
+        }
+        
+        @if (ViewBag.CurrentPage < ViewBag.TotalPages)
+        {
+            <a asp-controller="News" asp-action="Index" asp-route-page="@(ViewBag.CurrentPage + 1)" class="btn">Next</a>
+        }
+    </div>
+</section>

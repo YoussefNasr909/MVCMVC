@@ -1,0 +1,59 @@
+@model User
+@{
+    ViewData["Title"] = "Student Profile";
+    ViewData["HeaderClass"] = "sub-header";
+    ViewData["HeaderContent"] = "<h1>Student Profile</h1>";
+}
+
+<section class="about-us">
+    <div class="row">
+        <div class="about-col">
+            <h1>@Model.FirstName @Model.LastName</h1>
+            <p><strong>Student ID:</strong> @Model.StudentId</p>
+            <p><strong>Faculty:</strong> @(Model.Faculty?.Name ?? "Not assigned")</p>
+            <p><strong>Department:</strong> @(Model.Department?.Name ?? "Not assigned")</p>
+            <p><strong>Year:</strong> @(Model.Year?.ToString() ?? "Not assigned")</p>
+            <p><strong>Email:</strong> @Model.Email</p>
+
+            <h3>Enrolled Courses</h3>
+            @if (ViewBag.EnrolledCourses != null && ViewBag.EnrolledCourses.Count > 0)
+            {
+                <ul>
+                    @foreach (var course in ViewBag.EnrolledCourses)
+                    {
+                        <li>@course.Name (@course.Code)</li>
+                    }
+                </ul>
+            }
+            else
+            {
+                <p>No courses enrolled yet.</p>
+            }
+
+            <div class="mt-4">
+                <a asp-controller="Students" asp-action="EditProfile" class="btn btn-primary">
+                    <i class="fas fa-user-edit me-1"></i> Edit Profile
+                </a>
+                <a asp-controller="Students" asp-action="ManageCourses" class="btn btn-success">
+                    <i class="fas fa-book me-1"></i> Manage Courses
+                </a>
+                <a asp-controller="Results" asp-action="Index" class="btn btn-info">
+                    <i class="fas fa-chart-bar me-1"></i> View Results
+                </a>
+                <a asp-controller="Schedules" asp-action="Index" class="btn btn-secondary">
+                    <i class="fas fa-calendar-alt me-1"></i> View Schedule
+                </a>
+            </div>
+        </div>
+        <div class="about-col">
+            @if (!string.IsNullOrEmpty(Model.ProfileImageUrl))
+            {
+                <img src="@Model.ProfileImageUrl" alt="@Model.FirstName @Model.LastName">
+            }
+            else
+            {
+                <img src="/css/anu/default-profile.jpg" alt="Default Profile Image">
+            }
+        </div>
+    </div>
+</section>

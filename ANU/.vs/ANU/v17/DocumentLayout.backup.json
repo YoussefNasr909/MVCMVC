@@ -1,0 +1,732 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "E:\\FCAI Third Level\\\u062A\u0637\u0648\u064A\u0631 \u0627\u0644\u0628\u0631\u0645\u062C\u064A\u0627\u062A \u0648\u0627\u0644\u0645\u0645\u0627\u0631\u0633\u0629 \u0627\u0644\u0645\u0647\u0646\u064A\u0629 - Software Development and Professional Practice\\AdminDB - Copy\\ANU\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{D57ABCD1-51A5-4526-8D63-7FA69DBBD75C}|ANU\\ANU.csproj|e:\\fcai third level\\\u062A\u0637\u0648\u064A\u0631 \u0627\u0644\u0628\u0631\u0645\u062C\u064A\u0627\u062A \u0648\u0627\u0644\u0645\u0645\u0627\u0631\u0633\u0629 \u0627\u0644\u0645\u0647\u0646\u064A\u0629 - software development and professional practice\\admindb - copy\\anu\\anu\\models\\newsitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D57ABCD1-51A5-4526-8D63-7FA69DBBD75C}|ANU\\ANU.csproj|solutionrelative:anu\\models\\newsitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D57ABCD1-51A5-4526-8D63-7FA69DBBD75C}|ANU\\ANU.csproj|e:\\fcai third level\\\u062A\u0637\u0648\u064A\u0631 \u0627\u0644\u0628\u0631\u0645\u062C\u064A\u0627\u062A \u0648\u0627\u0644\u0645\u0645\u0627\u0631\u0633\u0629 \u0627\u0644\u0645\u0647\u0646\u064A\u0629 - software development and professional practice\\admindb - copy\\anu\\anu\\views\\admin\\editnews.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{D57ABCD1-51A5-4526-8D63-7FA69DBBD75C}|ANU\\ANU.csproj|solutionrelative:anu\\views\\admin\\editnews.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D57ABCD1-51A5-4526-8D63-7FA69DBBD75C}|ANU\\ANU.csproj|e:\\fcai third level\\\u062A\u0637\u0648\u064A\u0631 \u0627\u0644\u0628\u0631\u0645\u062C\u064A\u0627\u062A \u0648\u0627\u0644\u0645\u0645\u0627\u0631\u0633\u0629 \u0627\u0644\u0645\u0647\u0646\u064A\u0629 - software development and professional practice\\admindb - copy\\anu\\anu\\controllers\\newscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D57ABCD1-51A5-4526-8D63-7FA69DBBD75C}|ANU\\ANU.csproj|solutionrelative:anu\\controllers\\newscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D57ABCD1-51A5-4526-8D63-7FA69DBBD75C}|ANU\\ANU.csproj|e:\\fcai third level\\\u062A\u0637\u0648\u064A\u0631 \u0627\u0644\u0628\u0631\u0645\u062C\u064A\u0627\u062A \u0648\u0627\u0644\u0645\u0645\u0627\u0631\u0633\u0629 \u0627\u0644\u0645\u0647\u0646\u064A\u0629 - software development and professional practice\\admindb - copy\\anu\\anu\\controllers\\admincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D57ABCD1-51A5-4526-8D63-7FA69DBBD75C}|ANU\\ANU.csproj|solutionrelative:anu\\controllers\\admincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D57ABCD1-51A5-4526-8D63-7FA69DBBD75C}|ANU\\ANU.csproj|e:\\fcai third level\\\u062A\u0637\u0648\u064A\u0631 \u0627\u0644\u0628\u0631\u0645\u062C\u064A\u0627\u062A \u0648\u0627\u0644\u0645\u0645\u0627\u0631\u0633\u0629 \u0627\u0644\u0645\u0647\u0646\u064A\u0629 - software development and professional practice\\admindb - copy\\anu\\anu\\views\\admin\\deletestaff.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{D57ABCD1-51A5-4526-8D63-7FA69DBBD75C}|ANU\\ANU.csproj|solutionrelative:anu\\views\\admin\\deletestaff.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D57ABCD1-51A5-4526-8D63-7FA69DBBD75C}|ANU\\ANU.csproj|e:\\fcai third level\\\u062A\u0637\u0648\u064A\u0631 \u0627\u0644\u0628\u0631\u0645\u062C\u064A\u0627\u062A \u0648\u0627\u0644\u0645\u0645\u0627\u0631\u0633\u0629 \u0627\u0644\u0645\u0647\u0646\u064A\u0629 - software development and professional practice\\admindb - copy\\anu\\anu\\models\\department.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D57ABCD1-51A5-4526-8D63-7FA69DBBD75C}|ANU\\ANU.csproj|solutionrelative:anu\\models\\department.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D57ABCD1-51A5-4526-8D63-7FA69DBBD75C}|ANU\\ANU.csproj|e:\\fcai third level\\\u062A\u0637\u0648\u064A\u0631 \u0627\u0644\u0628\u0631\u0645\u062C\u064A\u0627\u062A \u0648\u0627\u0644\u0645\u0645\u0627\u0631\u0633\u0629 \u0627\u0644\u0645\u0647\u0646\u064A\u0629 - software development and professional practice\\admindb - copy\\anu\\anu\\models\\staff.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D57ABCD1-51A5-4526-8D63-7FA69DBBD75C}|ANU\\ANU.csproj|solutionrelative:anu\\models\\staff.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D57ABCD1-51A5-4526-8D63-7FA69DBBD75C}|ANU\\ANU.csproj|e:\\fcai third level\\\u062A\u0637\u0648\u064A\u0631 \u0627\u0644\u0628\u0631\u0645\u062C\u064A\u0627\u062A \u0648\u0627\u0644\u0645\u0645\u0627\u0631\u0633\u0629 \u0627\u0644\u0645\u0647\u0646\u064A\u0629 - software development and professional practice\\admindb - copy\\anu\\anu\\views\\admin\\deletedepartment.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{D57ABCD1-51A5-4526-8D63-7FA69DBBD75C}|ANU\\ANU.csproj|solutionrelative:anu\\views\\admin\\deletedepartment.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D57ABCD1-51A5-4526-8D63-7FA69DBBD75C}|ANU\\ANU.csproj|e:\\fcai third level\\\u062A\u0637\u0648\u064A\u0631 \u0627\u0644\u0628\u0631\u0645\u062C\u064A\u0627\u062A \u0648\u0627\u0644\u0645\u0645\u0627\u0631\u0633\u0629 \u0627\u0644\u0645\u0647\u0646\u064A\u0629 - software development and professional practice\\admindb - copy\\anu\\anu\\views\\admin\\deletefaculty.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{D57ABCD1-51A5-4526-8D63-7FA69DBBD75C}|ANU\\ANU.csproj|solutionrelative:anu\\views\\admin\\deletefaculty.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D57ABCD1-51A5-4526-8D63-7FA69DBBD75C}|ANU\\ANU.csproj|e:\\fcai third level\\\u062A\u0637\u0648\u064A\u0631 \u0627\u0644\u0628\u0631\u0645\u062C\u064A\u0627\u062A \u0648\u0627\u0644\u0645\u0645\u0627\u0631\u0633\u0629 \u0627\u0644\u0645\u0647\u0646\u064A\u0629 - software development and professional practice\\admindb - copy\\anu\\anu\\views\\admin\\deleteuser.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{D57ABCD1-51A5-4526-8D63-7FA69DBBD75C}|ANU\\ANU.csproj|solutionrelative:anu\\views\\admin\\deleteuser.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D57ABCD1-51A5-4526-8D63-7FA69DBBD75C}|ANU\\ANU.csproj|e:\\fcai third level\\\u062A\u0637\u0648\u064A\u0631 \u0627\u0644\u0628\u0631\u0645\u062C\u064A\u0627\u062A \u0648\u0627\u0644\u0645\u0645\u0627\u0631\u0633\u0629 \u0627\u0644\u0645\u0647\u0646\u064A\u0629 - software development and professional practice\\admindb - copy\\anu\\anu\\views\\admin\\createnews.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{D57ABCD1-51A5-4526-8D63-7FA69DBBD75C}|ANU\\ANU.csproj|solutionrelative:anu\\views\\admin\\createnews.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D57ABCD1-51A5-4526-8D63-7FA69DBBD75C}|ANU\\ANU.csproj|e:\\fcai third level\\\u062A\u0637\u0648\u064A\u0631 \u0627\u0644\u0628\u0631\u0645\u062C\u064A\u0627\u062A \u0648\u0627\u0644\u0645\u0645\u0627\u0631\u0633\u0629 \u0627\u0644\u0645\u0647\u0646\u064A\u0629 - software development and professional practice\\admindb - copy\\anu\\anu\\views\\admin\\editcourse.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{D57ABCD1-51A5-4526-8D63-7FA69DBBD75C}|ANU\\ANU.csproj|solutionrelative:anu\\views\\admin\\editcourse.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D57ABCD1-51A5-4526-8D63-7FA69DBBD75C}|ANU\\ANU.csproj|e:\\fcai third level\\\u062A\u0637\u0648\u064A\u0631 \u0627\u0644\u0628\u0631\u0645\u062C\u064A\u0627\u062A \u0648\u0627\u0644\u0645\u0645\u0627\u0631\u0633\u0629 \u0627\u0644\u0645\u0647\u0646\u064A\u0629 - software development and professional practice\\admindb - copy\\anu\\anu\\views\\admin\\createcourse.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{D57ABCD1-51A5-4526-8D63-7FA69DBBD75C}|ANU\\ANU.csproj|solutionrelative:anu\\views\\admin\\createcourse.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D57ABCD1-51A5-4526-8D63-7FA69DBBD75C}|ANU\\ANU.csproj|e:\\fcai third level\\\u062A\u0637\u0648\u064A\u0631 \u0627\u0644\u0628\u0631\u0645\u062C\u064A\u0627\u062A \u0648\u0627\u0644\u0645\u0645\u0627\u0631\u0633\u0629 \u0627\u0644\u0645\u0647\u0646\u064A\u0629 - software development and professional practice\\admindb - copy\\anu\\anu\\views\\admin\\managenews.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{D57ABCD1-51A5-4526-8D63-7FA69DBBD75C}|ANU\\ANU.csproj|solutionrelative:anu\\views\\admin\\managenews.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D57ABCD1-51A5-4526-8D63-7FA69DBBD75C}|ANU\\ANU.csproj|e:\\fcai third level\\\u062A\u0637\u0648\u064A\u0631 \u0627\u0644\u0628\u0631\u0645\u062C\u064A\u0627\u062A \u0648\u0627\u0644\u0645\u0645\u0627\u0631\u0633\u0629 \u0627\u0644\u0645\u0647\u0646\u064A\u0629 - software development and professional practice\\admindb - copy\\anu\\anu\\views\\admin\\managecourses.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{D57ABCD1-51A5-4526-8D63-7FA69DBBD75C}|ANU\\ANU.csproj|solutionrelative:anu\\views\\admin\\managecourses.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D57ABCD1-51A5-4526-8D63-7FA69DBBD75C}|ANU\\ANU.csproj|e:\\fcai third level\\\u062A\u0637\u0648\u064A\u0631 \u0627\u0644\u0628\u0631\u0645\u062C\u064A\u0627\u062A \u0648\u0627\u0644\u0645\u0645\u0627\u0631\u0633\u0629 \u0627\u0644\u0645\u0647\u0646\u064A\u0629 - software development and professional practice\\admindb - copy\\anu\\anu\\views\\admin\\createuser.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{D57ABCD1-51A5-4526-8D63-7FA69DBBD75C}|ANU\\ANU.csproj|solutionrelative:anu\\views\\admin\\createuser.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D57ABCD1-51A5-4526-8D63-7FA69DBBD75C}|ANU\\ANU.csproj|e:\\fcai third level\\\u062A\u0637\u0648\u064A\u0631 \u0627\u0644\u0628\u0631\u0645\u062C\u064A\u0627\u062A \u0648\u0627\u0644\u0645\u0645\u0627\u0631\u0633\u0629 \u0627\u0644\u0645\u0647\u0646\u064A\u0629 - software development and professional practice\\admindb - copy\\anu\\anu\\views\\admin\\createdepartment.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{D57ABCD1-51A5-4526-8D63-7FA69DBBD75C}|ANU\\ANU.csproj|solutionrelative:anu\\views\\admin\\createdepartment.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D57ABCD1-51A5-4526-8D63-7FA69DBBD75C}|ANU\\ANU.csproj|e:\\fcai third level\\\u062A\u0637\u0648\u064A\u0631 \u0627\u0644\u0628\u0631\u0645\u062C\u064A\u0627\u062A \u0648\u0627\u0644\u0645\u0645\u0627\u0631\u0633\u0629 \u0627\u0644\u0645\u0647\u0646\u064A\u0629 - software development and professional practice\\admindb - copy\\anu\\anu\\views\\admin\\createfaculty.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{D57ABCD1-51A5-4526-8D63-7FA69DBBD75C}|ANU\\ANU.csproj|solutionrelative:anu\\views\\admin\\createfaculty.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D57ABCD1-51A5-4526-8D63-7FA69DBBD75C}|ANU\\ANU.csproj|e:\\fcai third level\\\u062A\u0637\u0648\u064A\u0631 \u0627\u0644\u0628\u0631\u0645\u062C\u064A\u0627\u062A \u0648\u0627\u0644\u0645\u0645\u0627\u0631\u0633\u0629 \u0627\u0644\u0645\u0647\u0646\u064A\u0629 - software development and professional practice\\admindb - copy\\anu\\anu\\views\\admin\\createstaff.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{D57ABCD1-51A5-4526-8D63-7FA69DBBD75C}|ANU\\ANU.csproj|solutionrelative:anu\\views\\admin\\createstaff.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D57ABCD1-51A5-4526-8D63-7FA69DBBD75C}|ANU\\ANU.csproj|e:\\fcai third level\\\u062A\u0637\u0648\u064A\u0631 \u0627\u0644\u0628\u0631\u0645\u062C\u064A\u0627\u062A \u0648\u0627\u0644\u0645\u0645\u0627\u0631\u0633\u0629 \u0627\u0644\u0645\u0647\u0646\u064A\u0629 - software development and professional practice\\admindb - copy\\anu\\anu\\services\\authservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D57ABCD1-51A5-4526-8D63-7FA69DBBD75C}|ANU\\ANU.csproj|solutionrelative:anu\\services\\authservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D57ABCD1-51A5-4526-8D63-7FA69DBBD75C}|ANU\\ANU.csproj|e:\\fcai third level\\\u062A\u0637\u0648\u064A\u0631 \u0627\u0644\u0628\u0631\u0645\u062C\u064A\u0627\u062A \u0648\u0627\u0644\u0645\u0645\u0627\u0631\u0633\u0629 \u0627\u0644\u0645\u0647\u0646\u064A\u0629 - software development and professional practice\\admindb - copy\\anu\\anu\\controllers\\studentscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D57ABCD1-51A5-4526-8D63-7FA69DBBD75C}|ANU\\ANU.csproj|solutionrelative:anu\\controllers\\studentscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D57ABCD1-51A5-4526-8D63-7FA69DBBD75C}|ANU\\ANU.csproj|e:\\fcai third level\\\u062A\u0637\u0648\u064A\u0631 \u0627\u0644\u0628\u0631\u0645\u062C\u064A\u0627\u062A \u0648\u0627\u0644\u0645\u0645\u0627\u0631\u0633\u0629 \u0627\u0644\u0645\u0647\u0646\u064A\u0629 - software development and professional practice\\admindb - copy\\anu\\anu\\models\\course.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D57ABCD1-51A5-4526-8D63-7FA69DBBD75C}|ANU\\ANU.csproj|solutionrelative:anu\\models\\course.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D57ABCD1-51A5-4526-8D63-7FA69DBBD75C}|ANU\\ANU.csproj|e:\\fcai third level\\\u062A\u0637\u0648\u064A\u0631 \u0627\u0644\u0628\u0631\u0645\u062C\u064A\u0627\u062A \u0648\u0627\u0644\u0645\u0645\u0627\u0631\u0633\u0629 \u0627\u0644\u0645\u0647\u0646\u064A\u0629 - software development and professional practice\\admindb - copy\\anu\\anu\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{D57ABCD1-51A5-4526-8D63-7FA69DBBD75C}|ANU\\ANU.csproj|solutionrelative:anu\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D57ABCD1-51A5-4526-8D63-7FA69DBBD75C}|ANU\\ANU.csproj|e:\\fcai third level\\\u062A\u0637\u0648\u064A\u0631 \u0627\u0644\u0628\u0631\u0645\u062C\u064A\u0627\u062A \u0648\u0627\u0644\u0645\u0645\u0627\u0631\u0633\u0629 \u0627\u0644\u0645\u0647\u0646\u064A\u0629 - software development and professional practice\\admindb - copy\\anu\\anu\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D57ABCD1-51A5-4526-8D63-7FA69DBBD75C}|ANU\\ANU.csproj|solutionrelative:anu\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D57ABCD1-51A5-4526-8D63-7FA69DBBD75C}|ANU\\ANU.csproj|e:\\fcai third level\\\u062A\u0637\u0648\u064A\u0631 \u0627\u0644\u0628\u0631\u0645\u062C\u064A\u0627\u062A \u0648\u0627\u0644\u0645\u0645\u0627\u0631\u0633\u0629 \u0627\u0644\u0645\u0647\u0646\u064A\u0629 - software development and professional practice\\admindb - copy\\anu\\anu\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D57ABCD1-51A5-4526-8D63-7FA69DBBD75C}|ANU\\ANU.csproj|solutionrelative:anu\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D57ABCD1-51A5-4526-8D63-7FA69DBBD75C}|ANU\\ANU.csproj|e:\\fcai third level\\\u062A\u0637\u0648\u064A\u0631 \u0627\u0644\u0628\u0631\u0645\u062C\u064A\u0627\u062A \u0648\u0627\u0644\u0645\u0645\u0627\u0631\u0633\u0629 \u0627\u0644\u0645\u0647\u0646\u064A\u0629 - software development and professional practice\\admindb - copy\\anu\\anu\\views\\students\\managecourses.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{D57ABCD1-51A5-4526-8D63-7FA69DBBD75C}|ANU\\ANU.csproj|solutionrelative:anu\\views\\students\\managecourses.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D57ABCD1-51A5-4526-8D63-7FA69DBBD75C}|ANU\\ANU.csproj|e:\\fcai third level\\\u062A\u0637\u0648\u064A\u0631 \u0627\u0644\u0628\u0631\u0645\u062C\u064A\u0627\u062A \u0648\u0627\u0644\u0645\u0645\u0627\u0631\u0633\u0629 \u0627\u0644\u0645\u0647\u0646\u064A\u0629 - software development and professional practice\\admindb - copy\\anu\\anu\\views\\students\\editprofile.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{D57ABCD1-51A5-4526-8D63-7FA69DBBD75C}|ANU\\ANU.csproj|solutionrelative:anu\\views\\students\\editprofile.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D57ABCD1-51A5-4526-8D63-7FA69DBBD75C}|ANU\\ANU.csproj|e:\\fcai third level\\\u062A\u0637\u0648\u064A\u0631 \u0627\u0644\u0628\u0631\u0645\u062C\u064A\u0627\u062A \u0648\u0627\u0644\u0645\u0645\u0627\u0631\u0633\u0629 \u0627\u0644\u0645\u0647\u0646\u064A\u0629 - software development and professional practice\\admindb - copy\\anu\\anu\\views\\students\\profile.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{D57ABCD1-51A5-4526-8D63-7FA69DBBD75C}|ANU\\ANU.csproj|solutionrelative:anu\\views\\students\\profile.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D57ABCD1-51A5-4526-8D63-7FA69DBBD75C}|ANU\\ANU.csproj|e:\\fcai third level\\\u062A\u0637\u0648\u064A\u0631 \u0627\u0644\u0628\u0631\u0645\u062C\u064A\u0627\u062A \u0648\u0627\u0644\u0645\u0645\u0627\u0631\u0633\u0629 \u0627\u0644\u0645\u0647\u0646\u064A\u0629 - software development and professional practice\\admindb - copy\\anu\\anu\\views\\admin\\edituser.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{D57ABCD1-51A5-4526-8D63-7FA69DBBD75C}|ANU\\ANU.csproj|solutionrelative:anu\\views\\admin\\edituser.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D57ABCD1-51A5-4526-8D63-7FA69DBBD75C}|ANU\\ANU.csproj|e:\\fcai third level\\\u062A\u0637\u0648\u064A\u0631 \u0627\u0644\u0628\u0631\u0645\u062C\u064A\u0627\u062A \u0648\u0627\u0644\u0645\u0645\u0627\u0631\u0633\u0629 \u0627\u0644\u0645\u0647\u0646\u064A\u0629 - software development and professional practice\\admindb - copy\\anu\\anu\\views\\admin\\dashboard.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{D57ABCD1-51A5-4526-8D63-7FA69DBBD75C}|ANU\\ANU.csproj|solutionrelative:anu\\views\\admin\\dashboard.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D57ABCD1-51A5-4526-8D63-7FA69DBBD75C}|ANU\\ANU.csproj|e:\\fcai third level\\\u062A\u0637\u0648\u064A\u0631 \u0627\u0644\u0628\u0631\u0645\u062C\u064A\u0627\u062A \u0648\u0627\u0644\u0645\u0645\u0627\u0631\u0633\u0629 \u0627\u0644\u0645\u0647\u0646\u064A\u0629 - software development and professional practice\\admindb - copy\\anu\\anu\\views\\admin\\manageusers.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{D57ABCD1-51A5-4526-8D63-7FA69DBBD75C}|ANU\\ANU.csproj|solutionrelative:anu\\views\\admin\\manageusers.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D57ABCD1-51A5-4526-8D63-7FA69DBBD75C}|ANU\\ANU.csproj|e:\\fcai third level\\\u062A\u0637\u0648\u064A\u0631 \u0627\u0644\u0628\u0631\u0645\u062C\u064A\u0627\u062A \u0648\u0627\u0644\u0645\u0645\u0627\u0631\u0633\u0629 \u0627\u0644\u0645\u0647\u0646\u064A\u0629 - software development and professional practice\\admindb - copy\\anu\\anu\\views\\admin\\editdepartment.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{D57ABCD1-51A5-4526-8D63-7FA69DBBD75C}|ANU\\ANU.csproj|solutionrelative:anu\\views\\admin\\editdepartment.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D57ABCD1-51A5-4526-8D63-7FA69DBBD75C}|ANU\\ANU.csproj|e:\\fcai third level\\\u062A\u0637\u0648\u064A\u0631 \u0627\u0644\u0628\u0631\u0645\u062C\u064A\u0627\u062A \u0648\u0627\u0644\u0645\u0645\u0627\u0631\u0633\u0629 \u0627\u0644\u0645\u0647\u0646\u064A\u0629 - software development and professional practice\\admindb - copy\\anu\\anu\\views\\admin\\managedepartments.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{D57ABCD1-51A5-4526-8D63-7FA69DBBD75C}|ANU\\ANU.csproj|solutionrelative:anu\\views\\admin\\managedepartments.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D57ABCD1-51A5-4526-8D63-7FA69DBBD75C}|ANU\\ANU.csproj|e:\\fcai third level\\\u062A\u0637\u0648\u064A\u0631 \u0627\u0644\u0628\u0631\u0645\u062C\u064A\u0627\u062A \u0648\u0627\u0644\u0645\u0645\u0627\u0631\u0633\u0629 \u0627\u0644\u0645\u0647\u0646\u064A\u0629 - software development and professional practice\\admindb - copy\\anu\\anu\\views\\admin\\editfaculty.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{D57ABCD1-51A5-4526-8D63-7FA69DBBD75C}|ANU\\ANU.csproj|solutionrelative:anu\\views\\admin\\editfaculty.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D57ABCD1-51A5-4526-8D63-7FA69DBBD75C}|ANU\\ANU.csproj|e:\\fcai third level\\\u062A\u0637\u0648\u064A\u0631 \u0627\u0644\u0628\u0631\u0645\u062C\u064A\u0627\u062A \u0648\u0627\u0644\u0645\u0645\u0627\u0631\u0633\u0629 \u0627\u0644\u0645\u0647\u0646\u064A\u0629 - software development and professional practice\\admindb - copy\\anu\\anu\\views\\admin\\managefaculties.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{D57ABCD1-51A5-4526-8D63-7FA69DBBD75C}|ANU\\ANU.csproj|solutionrelative:anu\\views\\admin\\managefaculties.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D57ABCD1-51A5-4526-8D63-7FA69DBBD75C}|ANU\\ANU.csproj|e:\\fcai third level\\\u062A\u0637\u0648\u064A\u0631 \u0627\u0644\u0628\u0631\u0645\u062C\u064A\u0627\u062A \u0648\u0627\u0644\u0645\u0645\u0627\u0631\u0633\u0629 \u0627\u0644\u0645\u0647\u0646\u064A\u0629 - software development and professional practice\\admindb - copy\\anu\\anu\\views\\admin\\editstaff.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{D57ABCD1-51A5-4526-8D63-7FA69DBBD75C}|ANU\\ANU.csproj|solutionrelative:anu\\views\\admin\\editstaff.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D57ABCD1-51A5-4526-8D63-7FA69DBBD75C}|ANU\\ANU.csproj|e:\\fcai third level\\\u062A\u0637\u0648\u064A\u0631 \u0627\u0644\u0628\u0631\u0645\u062C\u064A\u0627\u062A \u0648\u0627\u0644\u0645\u0645\u0627\u0631\u0633\u0629 \u0627\u0644\u0645\u0647\u0646\u064A\u0629 - software development and professional practice\\admindb - copy\\anu\\anu\\views\\admin\\managestaff.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{D57ABCD1-51A5-4526-8D63-7FA69DBBD75C}|ANU\\ANU.csproj|solutionrelative:anu\\views\\admin\\managestaff.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D57ABCD1-51A5-4526-8D63-7FA69DBBD75C}|ANU\\ANU.csproj|e:\\fcai third level\\\u062A\u0637\u0648\u064A\u0631 \u0627\u0644\u0628\u0631\u0645\u062C\u064A\u0627\u062A \u0648\u0627\u0644\u0645\u0645\u0627\u0631\u0633\u0629 \u0627\u0644\u0645\u0647\u0646\u064A\u0629 - software development and professional practice\\admindb - copy\\anu\\anu\\views\\account\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{D57ABCD1-51A5-4526-8D63-7FA69DBBD75C}|ANU\\ANU.csproj|solutionrelative:anu\\views\\account\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D57ABCD1-51A5-4526-8D63-7FA69DBBD75C}|ANU\\ANU.csproj|e:\\fcai third level\\\u062A\u0637\u0648\u064A\u0631 \u0627\u0644\u0628\u0631\u0645\u062C\u064A\u0627\u062A \u0648\u0627\u0644\u0645\u0645\u0627\u0631\u0633\u0629 \u0627\u0644\u0645\u0647\u0646\u064A\u0629 - software development and professional practice\\admindb - copy\\anu\\anu\\views\\students\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{D57ABCD1-51A5-4526-8D63-7FA69DBBD75C}|ANU\\ANU.csproj|solutionrelative:anu\\views\\students\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D57ABCD1-51A5-4526-8D63-7FA69DBBD75C}|ANU\\ANU.csproj|e:\\fcai third level\\\u062A\u0637\u0648\u064A\u0631 \u0627\u0644\u0628\u0631\u0645\u062C\u064A\u0627\u062A \u0648\u0627\u0644\u0645\u0645\u0627\u0631\u0633\u0629 \u0627\u0644\u0645\u0647\u0646\u064A\u0629 - software development and professional practice\\admindb - copy\\anu\\anu\\views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{D57ABCD1-51A5-4526-8D63-7FA69DBBD75C}|ANU\\ANU.csproj|solutionrelative:anu\\views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D57ABCD1-51A5-4526-8D63-7FA69DBBD75C}|ANU\\ANU.csproj|e:\\fcai third level\\\u062A\u0637\u0648\u064A\u0631 \u0627\u0644\u0628\u0631\u0645\u062C\u064A\u0627\u062A \u0648\u0627\u0644\u0645\u0645\u0627\u0631\u0633\u0629 \u0627\u0644\u0645\u0647\u0646\u064A\u0629 - software development and professional practice\\admindb - copy\\anu\\anu\\views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{D57ABCD1-51A5-4526-8D63-7FA69DBBD75C}|ANU\\ANU.csproj|solutionrelative:anu\\views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D57ABCD1-51A5-4526-8D63-7FA69DBBD75C}|ANU\\ANU.csproj|e:\\fcai third level\\\u062A\u0637\u0648\u064A\u0631 \u0627\u0644\u0628\u0631\u0645\u062C\u064A\u0627\u062A \u0648\u0627\u0644\u0645\u0645\u0627\u0631\u0633\u0629 \u0627\u0644\u0645\u0647\u0646\u064A\u0629 - software development and professional practice\\admindb - copy\\anu\\anu\\views\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{D57ABCD1-51A5-4526-8D63-7FA69DBBD75C}|ANU\\ANU.csproj|solutionrelative:anu\\views\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D57ABCD1-51A5-4526-8D63-7FA69DBBD75C}|ANU\\ANU.csproj|e:\\fcai third level\\\u062A\u0637\u0648\u064A\u0631 \u0627\u0644\u0628\u0631\u0645\u062C\u064A\u0627\u062A \u0648\u0627\u0644\u0645\u0645\u0627\u0631\u0633\u0629 \u0627\u0644\u0645\u0647\u0646\u064A\u0629 - software development and professional practice\\admindb - copy\\anu\\anu\\views\\manage.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{D57ABCD1-51A5-4526-8D63-7FA69DBBD75C}|ANU\\ANU.csproj|solutionrelative:anu\\views\\manage.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 8,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "NewsController.cs",
+              "DocumentMoniker": "E:\\FCAI Third Level\\\u062A\u0637\u0648\u064A\u0631 \u0627\u0644\u0628\u0631\u0645\u062C\u064A\u0627\u062A \u0648\u0627\u0644\u0645\u0645\u0627\u0631\u0633\u0629 \u0627\u0644\u0645\u0647\u0646\u064A\u0629 - Software Development and Professional Practice\\AdminDB - Copy\\ANU\\ANU\\Controllers\\NewsController.cs",
+              "RelativeDocumentMoniker": "ANU\\Controllers\\NewsController.cs",
+              "ToolTip": "E:\\FCAI Third Level\\\u062A\u0637\u0648\u064A\u0631 \u0627\u0644\u0628\u0631\u0645\u062C\u064A\u0627\u062A \u0648\u0627\u0644\u0645\u0645\u0627\u0631\u0633\u0629 \u0627\u0644\u0645\u0647\u0646\u064A\u0629 - Software Development and Professional Practice\\AdminDB - Copy\\ANU\\ANU\\Controllers\\NewsController.cs",
+              "RelativeToolTip": "ANU\\Controllers\\NewsController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-01T17:57:38.178Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Staff.cs",
+              "DocumentMoniker": "E:\\FCAI Third Level\\\u062A\u0637\u0648\u064A\u0631 \u0627\u0644\u0628\u0631\u0645\u062C\u064A\u0627\u062A \u0648\u0627\u0644\u0645\u0645\u0627\u0631\u0633\u0629 \u0627\u0644\u0645\u0647\u0646\u064A\u0629 - Software Development and Professional Practice\\AdminDB - Copy\\ANU\\ANU\\Models\\Staff.cs",
+              "RelativeDocumentMoniker": "ANU\\Models\\Staff.cs",
+              "ToolTip": "E:\\FCAI Third Level\\\u062A\u0637\u0648\u064A\u0631 \u0627\u0644\u0628\u0631\u0645\u062C\u064A\u0627\u062A \u0648\u0627\u0644\u0645\u0645\u0627\u0631\u0633\u0629 \u0627\u0644\u0645\u0647\u0646\u064A\u0629 - Software Development and Professional Practice\\AdminDB - Copy\\ANU\\ANU\\Models\\Staff.cs",
+              "RelativeToolTip": "ANU\\Models\\Staff.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAYwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-01T17:47:27.114Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "EditNews.cshtml",
+              "DocumentMoniker": "E:\\FCAI Third Level\\\u062A\u0637\u0648\u064A\u0631 \u0627\u0644\u0628\u0631\u0645\u062C\u064A\u0627\u062A \u0648\u0627\u0644\u0645\u0645\u0627\u0631\u0633\u0629 \u0627\u0644\u0645\u0647\u0646\u064A\u0629 - Software Development and Professional Practice\\AdminDB - Copy\\ANU\\ANU\\Views\\Admin\\EditNews.cshtml",
+              "RelativeDocumentMoniker": "ANU\\Views\\Admin\\EditNews.cshtml",
+              "ToolTip": "E:\\FCAI Third Level\\\u062A\u0637\u0648\u064A\u0631 \u0627\u0644\u0628\u0631\u0645\u062C\u064A\u0627\u062A \u0648\u0627\u0644\u0645\u0645\u0627\u0631\u0633\u0629 \u0627\u0644\u0645\u0647\u0646\u064A\u0629 - Software Development and Professional Practice\\AdminDB - Copy\\ANU\\ANU\\Views\\Admin\\EditNews.cshtml",
+              "RelativeToolTip": "ANU\\Views\\Admin\\EditNews.cshtml",
+              "ViewState": "AgIAABgAAAAAAAAAAAAAAEYAAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-01T17:46:13.69Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "CreateNews.cshtml",
+              "DocumentMoniker": "E:\\FCAI Third Level\\\u062A\u0637\u0648\u064A\u0631 \u0627\u0644\u0628\u0631\u0645\u062C\u064A\u0627\u062A \u0648\u0627\u0644\u0645\u0645\u0627\u0631\u0633\u0629 \u0627\u0644\u0645\u0647\u0646\u064A\u0629 - Software Development and Professional Practice\\AdminDB - Copy\\ANU\\ANU\\Views\\Admin\\CreateNews.cshtml",
+              "RelativeDocumentMoniker": "ANU\\Views\\Admin\\CreateNews.cshtml",
+              "ToolTip": "E:\\FCAI Third Level\\\u062A\u0637\u0648\u064A\u0631 \u0627\u0644\u0628\u0631\u0645\u062C\u064A\u0627\u062A \u0648\u0627\u0644\u0645\u0645\u0627\u0631\u0633\u0629 \u0627\u0644\u0645\u0647\u0646\u064A\u0629 - Software Development and Professional Practice\\AdminDB - Copy\\ANU\\ANU\\Views\\Admin\\CreateNews.cshtml",
+              "RelativeToolTip": "ANU\\Views\\Admin\\CreateNews.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAD0AAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-01T17:45:40.288Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "EditCourse.cshtml",
+              "DocumentMoniker": "E:\\FCAI Third Level\\\u062A\u0637\u0648\u064A\u0631 \u0627\u0644\u0628\u0631\u0645\u062C\u064A\u0627\u062A \u0648\u0627\u0644\u0645\u0645\u0627\u0631\u0633\u0629 \u0627\u0644\u0645\u0647\u0646\u064A\u0629 - Software Development and Professional Practice\\AdminDB - Copy\\ANU\\ANU\\Views\\Admin\\EditCourse.cshtml",
+              "RelativeDocumentMoniker": "ANU\\Views\\Admin\\EditCourse.cshtml",
+              "ToolTip": "E:\\FCAI Third Level\\\u062A\u0637\u0648\u064A\u0631 \u0627\u0644\u0628\u0631\u0645\u062C\u064A\u0627\u062A \u0648\u0627\u0644\u0645\u0645\u0627\u0631\u0633\u0629 \u0627\u0644\u0645\u0647\u0646\u064A\u0629 - Software Development and Professional Practice\\AdminDB - Copy\\ANU\\ANU\\Views\\Admin\\EditCourse.cshtml",
+              "RelativeToolTip": "ANU\\Views\\Admin\\EditCourse.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAEcAAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-01T17:45:11.722Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "CreateCourse.cshtml",
+              "DocumentMoniker": "E:\\FCAI Third Level\\\u062A\u0637\u0648\u064A\u0631 \u0627\u0644\u0628\u0631\u0645\u062C\u064A\u0627\u062A \u0648\u0627\u0644\u0645\u0645\u0627\u0631\u0633\u0629 \u0627\u0644\u0645\u0647\u0646\u064A\u0629 - Software Development and Professional Practice\\AdminDB - Copy\\ANU\\ANU\\Views\\Admin\\CreateCourse.cshtml",
+              "RelativeDocumentMoniker": "ANU\\Views\\Admin\\CreateCourse.cshtml",
+              "ToolTip": "E:\\FCAI Third Level\\\u062A\u0637\u0648\u064A\u0631 \u0627\u0644\u0628\u0631\u0645\u062C\u064A\u0627\u062A \u0648\u0627\u0644\u0645\u0645\u0627\u0631\u0633\u0629 \u0627\u0644\u0645\u0647\u0646\u064A\u0629 - Software Development and Professional Practice\\AdminDB - Copy\\ANU\\ANU\\Views\\Admin\\CreateCourse.cshtml",
+              "RelativeToolTip": "ANU\\Views\\Admin\\CreateCourse.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-01T17:44:41.694Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "NewsItem.cs",
+              "DocumentMoniker": "E:\\FCAI Third Level\\\u062A\u0637\u0648\u064A\u0631 \u0627\u0644\u0628\u0631\u0645\u062C\u064A\u0627\u062A \u0648\u0627\u0644\u0645\u0645\u0627\u0631\u0633\u0629 \u0627\u0644\u0645\u0647\u0646\u064A\u0629 - Software Development and Professional Practice\\AdminDB - Copy\\ANU\\ANU\\Models\\NewsItem.cs",
+              "RelativeDocumentMoniker": "ANU\\Models\\NewsItem.cs",
+              "ToolTip": "E:\\FCAI Third Level\\\u062A\u0637\u0648\u064A\u0631 \u0627\u0644\u0628\u0631\u0645\u062C\u064A\u0627\u062A \u0648\u0627\u0644\u0645\u0645\u0627\u0631\u0633\u0629 \u0627\u0644\u0645\u0647\u0646\u064A\u0629 - Software Development and Professional Practice\\AdminDB - Copy\\ANU\\ANU\\Models\\NewsItem.cs",
+              "RelativeToolTip": "ANU\\Models\\NewsItem.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAywAsAAAAzAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-01T17:42:49.109Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "ManageNews.cshtml",
+              "DocumentMoniker": "E:\\FCAI Third Level\\\u062A\u0637\u0648\u064A\u0631 \u0627\u0644\u0628\u0631\u0645\u062C\u064A\u0627\u062A \u0648\u0627\u0644\u0645\u0645\u0627\u0631\u0633\u0629 \u0627\u0644\u0645\u0647\u0646\u064A\u0629 - Software Development and Professional Practice\\AdminDB - Copy\\ANU\\ANU\\Views\\Admin\\ManageNews.cshtml",
+              "RelativeDocumentMoniker": "ANU\\Views\\Admin\\ManageNews.cshtml",
+              "ToolTip": "E:\\FCAI Third Level\\\u062A\u0637\u0648\u064A\u0631 \u0627\u0644\u0628\u0631\u0645\u062C\u064A\u0627\u062A \u0648\u0627\u0644\u0645\u0645\u0627\u0631\u0633\u0629 \u0627\u0644\u0645\u0647\u0646\u064A\u0629 - Software Development and Professional Practice\\AdminDB - Copy\\ANU\\ANU\\Views\\Admin\\ManageNews.cshtml",
+              "RelativeToolTip": "ANU\\Views\\Admin\\ManageNews.cshtml",
+              "ViewState": "AgIAABQAAAAAAAAAAAAQwCEAAAA5AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-01T17:42:28.04Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "ManageCourses.cshtml",
+              "DocumentMoniker": "E:\\FCAI Third Level\\\u062A\u0637\u0648\u064A\u0631 \u0627\u0644\u0628\u0631\u0645\u062C\u064A\u0627\u062A \u0648\u0627\u0644\u0645\u0645\u0627\u0631\u0633\u0629 \u0627\u0644\u0645\u0647\u0646\u064A\u0629 - Software Development and Professional Practice\\AdminDB - Copy\\ANU\\ANU\\Views\\Admin\\ManageCourses.cshtml",
+              "RelativeDocumentMoniker": "ANU\\Views\\Admin\\ManageCourses.cshtml",
+              "ToolTip": "E:\\FCAI Third Level\\\u062A\u0637\u0648\u064A\u0631 \u0627\u0644\u0628\u0631\u0645\u062C\u064A\u0627\u062A \u0648\u0627\u0644\u0645\u0645\u0627\u0631\u0633\u0629 \u0627\u0644\u0645\u0647\u0646\u064A\u0629 - Software Development and Professional Practice\\AdminDB - Copy\\ANU\\ANU\\Views\\Admin\\ManageCourses.cshtml",
+              "RelativeToolTip": "ANU\\Views\\Admin\\ManageCourses.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADgAAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-01T17:42:04.432Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Department.cs",
+              "DocumentMoniker": "E:\\FCAI Third Level\\\u062A\u0637\u0648\u064A\u0631 \u0627\u0644\u0628\u0631\u0645\u062C\u064A\u0627\u062A \u0648\u0627\u0644\u0645\u0645\u0627\u0631\u0633\u0629 \u0627\u0644\u0645\u0647\u0646\u064A\u0629 - Software Development and Professional Practice\\AdminDB - Copy\\ANU\\ANU\\Models\\Department.cs",
+              "RelativeDocumentMoniker": "ANU\\Models\\Department.cs",
+              "ToolTip": "E:\\FCAI Third Level\\\u062A\u0637\u0648\u064A\u0631 \u0627\u0644\u0628\u0631\u0645\u062C\u064A\u0627\u062A \u0648\u0627\u0644\u0645\u0645\u0627\u0631\u0633\u0629 \u0627\u0644\u0645\u0647\u0646\u064A\u0629 - Software Development and Professional Practice\\AdminDB - Copy\\ANU\\ANU\\Models\\Department.cs",
+              "RelativeToolTip": "ANU\\Models\\Department.cs",
+              "ViewState": "AgIAAAEAAAAAAAAAAAAQwA8AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-01T15:42:52.162Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "Course.cs",
+              "DocumentMoniker": "E:\\FCAI Third Level\\\u062A\u0637\u0648\u064A\u0631 \u0627\u0644\u0628\u0631\u0645\u062C\u064A\u0627\u062A \u0648\u0627\u0644\u0645\u0645\u0627\u0631\u0633\u0629 \u0627\u0644\u0645\u0647\u0646\u064A\u0629 - Software Development and Professional Practice\\AdminDB - Copy\\ANU\\ANU\\Models\\Course.cs",
+              "RelativeDocumentMoniker": "ANU\\Models\\Course.cs",
+              "ToolTip": "E:\\FCAI Third Level\\\u062A\u0637\u0648\u064A\u0631 \u0627\u0644\u0628\u0631\u0645\u062C\u064A\u0627\u062A \u0648\u0627\u0644\u0645\u0645\u0627\u0631\u0633\u0629 \u0627\u0644\u0645\u0647\u0646\u064A\u0629 - Software Development and Professional Practice\\AdminDB - Copy\\ANU\\ANU\\Models\\Course.cs",
+              "RelativeToolTip": "ANU\\Models\\Course.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAA8wBIAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-01T15:40:32.66Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "StudentsController.cs",
+              "DocumentMoniker": "E:\\FCAI Third Level\\\u062A\u0637\u0648\u064A\u0631 \u0627\u0644\u0628\u0631\u0645\u062C\u064A\u0627\u062A \u0648\u0627\u0644\u0645\u0645\u0627\u0631\u0633\u0629 \u0627\u0644\u0645\u0647\u0646\u064A\u0629 - Software Development and Professional Practice\\AdminDB - Copy\\ANU\\ANU\\Controllers\\StudentsController.cs",
+              "RelativeDocumentMoniker": "ANU\\Controllers\\StudentsController.cs",
+              "ToolTip": "E:\\FCAI Third Level\\\u062A\u0637\u0648\u064A\u0631 \u0627\u0644\u0628\u0631\u0645\u062C\u064A\u0627\u062A \u0648\u0627\u0644\u0645\u0645\u0627\u0631\u0633\u0629 \u0627\u0644\u0645\u0647\u0646\u064A\u0629 - Software Development and Professional Practice\\AdminDB - Copy\\ANU\\ANU\\Controllers\\StudentsController.cs",
+              "RelativeToolTip": "ANU\\Controllers\\StudentsController.cs",
+              "ViewState": "AgIAAHUAAAAAAAAAAAAiwH4AAAAvAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-01T15:39:56.849Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "E:\\FCAI Third Level\\\u062A\u0637\u0648\u064A\u0631 \u0627\u0644\u0628\u0631\u0645\u062C\u064A\u0627\u062A \u0648\u0627\u0644\u0645\u0645\u0627\u0631\u0633\u0629 \u0627\u0644\u0645\u0647\u0646\u064A\u0629 - Software Development and Professional Practice\\AdminDB - Copy\\ANU\\ANU\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "ANU\\Controllers\\HomeController.cs",
+              "ToolTip": "E:\\FCAI Third Level\\\u062A\u0637\u0648\u064A\u0631 \u0627\u0644\u0628\u0631\u0645\u062C\u064A\u0627\u062A \u0648\u0627\u0644\u0645\u0645\u0627\u0631\u0633\u0629 \u0627\u0644\u0645\u0647\u0646\u064A\u0629 - Software Development and Professional Practice\\AdminDB - Copy\\ANU\\ANU\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "ANU\\Controllers\\HomeController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADYAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-01T15:39:39.623Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "ManageCourses.cshtml",
+              "DocumentMoniker": "E:\\FCAI Third Level\\\u062A\u0637\u0648\u064A\u0631 \u0627\u0644\u0628\u0631\u0645\u062C\u064A\u0627\u062A \u0648\u0627\u0644\u0645\u0645\u0627\u0631\u0633\u0629 \u0627\u0644\u0645\u0647\u0646\u064A\u0629 - Software Development and Professional Practice\\AdminDB - Copy\\ANU\\ANU\\Views\\Students\\ManageCourses.cshtml",
+              "RelativeDocumentMoniker": "ANU\\Views\\Students\\ManageCourses.cshtml",
+              "ToolTip": "E:\\FCAI Third Level\\\u062A\u0637\u0648\u064A\u0631 \u0627\u0644\u0628\u0631\u0645\u062C\u064A\u0627\u062A \u0648\u0627\u0644\u0645\u0645\u0627\u0631\u0633\u0629 \u0627\u0644\u0645\u0647\u0646\u064A\u0629 - Software Development and Professional Practice\\AdminDB - Copy\\ANU\\ANU\\Views\\Students\\ManageCourses.cshtml",
+              "RelativeToolTip": "ANU\\Views\\Students\\ManageCourses.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAHIAAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-01T15:39:16.811Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "EditProfile.cshtml",
+              "DocumentMoniker": "E:\\FCAI Third Level\\\u062A\u0637\u0648\u064A\u0631 \u0627\u0644\u0628\u0631\u0645\u062C\u064A\u0627\u062A \u0648\u0627\u0644\u0645\u0645\u0627\u0631\u0633\u0629 \u0627\u0644\u0645\u0647\u0646\u064A\u0629 - Software Development and Professional Practice\\AdminDB - Copy\\ANU\\ANU\\Views\\Students\\EditProfile.cshtml",
+              "RelativeDocumentMoniker": "ANU\\Views\\Students\\EditProfile.cshtml",
+              "ToolTip": "E:\\FCAI Third Level\\\u062A\u0637\u0648\u064A\u0631 \u0627\u0644\u0628\u0631\u0645\u062C\u064A\u0627\u062A \u0648\u0627\u0644\u0645\u0645\u0627\u0631\u0633\u0629 \u0627\u0644\u0645\u0647\u0646\u064A\u0629 - Software Development and Professional Practice\\AdminDB - Copy\\ANU\\ANU\\Views\\Students\\EditProfile.cshtml",
+              "RelativeToolTip": "ANU\\Views\\Students\\EditProfile.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAHUAAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-01T15:38:48.896Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "EditUser.cshtml",
+              "DocumentMoniker": "E:\\FCAI Third Level\\\u062A\u0637\u0648\u064A\u0631 \u0627\u0644\u0628\u0631\u0645\u062C\u064A\u0627\u062A \u0648\u0627\u0644\u0645\u0645\u0627\u0631\u0633\u0629 \u0627\u0644\u0645\u0647\u0646\u064A\u0629 - Software Development and Professional Practice\\AdminDB - Copy\\ANU\\ANU\\Views\\Admin\\EditUser.cshtml",
+              "RelativeDocumentMoniker": "ANU\\Views\\Admin\\EditUser.cshtml",
+              "ToolTip": "E:\\FCAI Third Level\\\u062A\u0637\u0648\u064A\u0631 \u0627\u0644\u0628\u0631\u0645\u062C\u064A\u0627\u062A \u0648\u0627\u0644\u0645\u0645\u0627\u0631\u0633\u0629 \u0627\u0644\u0645\u0647\u0646\u064A\u0629 - Software Development and Professional Practice\\AdminDB - Copy\\ANU\\ANU\\Views\\Admin\\EditUser.cshtml",
+              "RelativeToolTip": "ANU\\Views\\Admin\\EditUser.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-01T15:38:10.529Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "Profile.cshtml",
+              "DocumentMoniker": "E:\\FCAI Third Level\\\u062A\u0637\u0648\u064A\u0631 \u0627\u0644\u0628\u0631\u0645\u062C\u064A\u0627\u062A \u0648\u0627\u0644\u0645\u0645\u0627\u0631\u0633\u0629 \u0627\u0644\u0645\u0647\u0646\u064A\u0629 - Software Development and Professional Practice\\AdminDB - Copy\\ANU\\ANU\\Views\\Students\\Profile.cshtml",
+              "RelativeDocumentMoniker": "ANU\\Views\\Students\\Profile.cshtml",
+              "ToolTip": "E:\\FCAI Third Level\\\u062A\u0637\u0648\u064A\u0631 \u0627\u0644\u0628\u0631\u0645\u062C\u064A\u0627\u062A \u0648\u0627\u0644\u0645\u0645\u0627\u0631\u0633\u0629 \u0627\u0644\u0645\u0647\u0646\u064A\u0629 - Software Development and Professional Practice\\AdminDB - Copy\\ANU\\ANU\\Views\\Students\\Profile.cshtml",
+              "RelativeToolTip": "ANU\\Views\\Students\\Profile.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADoAAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-01T15:23:10.358Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "DeleteUser.cshtml",
+              "DocumentMoniker": "E:\\FCAI Third Level\\\u062A\u0637\u0648\u064A\u0631 \u0627\u0644\u0628\u0631\u0645\u062C\u064A\u0627\u062A \u0648\u0627\u0644\u0645\u0645\u0627\u0631\u0633\u0629 \u0627\u0644\u0645\u0647\u0646\u064A\u0629 - Software Development and Professional Practice\\AdminDB - Copy\\ANU\\ANU\\Views\\Admin\\DeleteUser.cshtml",
+              "RelativeDocumentMoniker": "ANU\\Views\\Admin\\DeleteUser.cshtml",
+              "ToolTip": "E:\\FCAI Third Level\\\u062A\u0637\u0648\u064A\u0631 \u0627\u0644\u0628\u0631\u0645\u062C\u064A\u0627\u062A \u0648\u0627\u0644\u0645\u0645\u0627\u0631\u0633\u0629 \u0627\u0644\u0645\u0647\u0646\u064A\u0629 - Software Development and Professional Practice\\AdminDB - Copy\\ANU\\ANU\\Views\\Admin\\DeleteUser.cshtml",
+              "RelativeToolTip": "ANU\\Views\\Admin\\DeleteUser.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAEEAAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-29T16:18:23.615Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "CreateUser.cshtml",
+              "DocumentMoniker": "E:\\FCAI Third Level\\\u062A\u0637\u0648\u064A\u0631 \u0627\u0644\u0628\u0631\u0645\u062C\u064A\u0627\u062A \u0648\u0627\u0644\u0645\u0645\u0627\u0631\u0633\u0629 \u0627\u0644\u0645\u0647\u0646\u064A\u0629 - Software Development and Professional Practice\\AdminDB - Copy\\ANU\\ANU\\Views\\Admin\\CreateUser.cshtml",
+              "RelativeDocumentMoniker": "ANU\\Views\\Admin\\CreateUser.cshtml",
+              "ToolTip": "E:\\FCAI Third Level\\\u062A\u0637\u0648\u064A\u0631 \u0627\u0644\u0628\u0631\u0645\u062C\u064A\u0627\u062A \u0648\u0627\u0644\u0645\u0645\u0627\u0631\u0633\u0629 \u0627\u0644\u0645\u0647\u0646\u064A\u0629 - Software Development and Professional Practice\\AdminDB - Copy\\ANU\\ANU\\Views\\Admin\\CreateUser.cshtml",
+              "RelativeToolTip": "ANU\\Views\\Admin\\CreateUser.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-29T16:18:02.339Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "ManageUsers.cshtml",
+              "DocumentMoniker": "E:\\FCAI Third Level\\\u062A\u0637\u0648\u064A\u0631 \u0627\u0644\u0628\u0631\u0645\u062C\u064A\u0627\u062A \u0648\u0627\u0644\u0645\u0645\u0627\u0631\u0633\u0629 \u0627\u0644\u0645\u0647\u0646\u064A\u0629 - Software Development and Professional Practice\\AdminDB - Copy\\ANU\\ANU\\Views\\Admin\\ManageUsers.cshtml",
+              "RelativeDocumentMoniker": "ANU\\Views\\Admin\\ManageUsers.cshtml",
+              "ToolTip": "E:\\FCAI Third Level\\\u062A\u0637\u0648\u064A\u0631 \u0627\u0644\u0628\u0631\u0645\u062C\u064A\u0627\u062A \u0648\u0627\u0644\u0645\u0645\u0627\u0631\u0633\u0629 \u0627\u0644\u0645\u0647\u0646\u064A\u0629 - Software Development and Professional Practice\\AdminDB - Copy\\ANU\\ANU\\Views\\Admin\\ManageUsers.cshtml",
+              "RelativeToolTip": "ANU\\Views\\Admin\\ManageUsers.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADkAAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-29T16:17:30.682Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "DeleteDepartment.cshtml",
+              "DocumentMoniker": "E:\\FCAI Third Level\\\u062A\u0637\u0648\u064A\u0631 \u0627\u0644\u0628\u0631\u0645\u062C\u064A\u0627\u062A \u0648\u0627\u0644\u0645\u0645\u0627\u0631\u0633\u0629 \u0627\u0644\u0645\u0647\u0646\u064A\u0629 - Software Development and Professional Practice\\AdminDB - Copy\\ANU\\ANU\\Views\\Admin\\DeleteDepartment.cshtml",
+              "RelativeDocumentMoniker": "ANU\\Views\\Admin\\DeleteDepartment.cshtml",
+              "ToolTip": "E:\\FCAI Third Level\\\u062A\u0637\u0648\u064A\u0631 \u0627\u0644\u0628\u0631\u0645\u062C\u064A\u0627\u062A \u0648\u0627\u0644\u0645\u0645\u0627\u0631\u0633\u0629 \u0627\u0644\u0645\u0647\u0646\u064A\u0629 - Software Development and Professional Practice\\AdminDB - Copy\\ANU\\ANU\\Views\\Admin\\DeleteDepartment.cshtml",
+              "RelativeToolTip": "ANU\\Views\\Admin\\DeleteDepartment.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAC8AAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-29T16:16:57.236Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "EditDepartment.cshtml",
+              "DocumentMoniker": "E:\\FCAI Third Level\\\u062A\u0637\u0648\u064A\u0631 \u0627\u0644\u0628\u0631\u0645\u062C\u064A\u0627\u062A \u0648\u0627\u0644\u0645\u0645\u0627\u0631\u0633\u0629 \u0627\u0644\u0645\u0647\u0646\u064A\u0629 - Software Development and Professional Practice\\AdminDB - Copy\\ANU\\ANU\\Views\\Admin\\EditDepartment.cshtml",
+              "RelativeDocumentMoniker": "ANU\\Views\\Admin\\EditDepartment.cshtml",
+              "ToolTip": "E:\\FCAI Third Level\\\u062A\u0637\u0648\u064A\u0631 \u0627\u0644\u0628\u0631\u0645\u062C\u064A\u0627\u062A \u0648\u0627\u0644\u0645\u0645\u0627\u0631\u0633\u0629 \u0627\u0644\u0645\u0647\u0646\u064A\u0629 - Software Development and Professional Practice\\AdminDB - Copy\\ANU\\ANU\\Views\\Admin\\EditDepartment.cshtml",
+              "RelativeToolTip": "ANU\\Views\\Admin\\EditDepartment.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-29T16:16:19.55Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "CreateDepartment.cshtml",
+              "DocumentMoniker": "E:\\FCAI Third Level\\\u062A\u0637\u0648\u064A\u0631 \u0627\u0644\u0628\u0631\u0645\u062C\u064A\u0627\u062A \u0648\u0627\u0644\u0645\u0645\u0627\u0631\u0633\u0629 \u0627\u0644\u0645\u0647\u0646\u064A\u0629 - Software Development and Professional Practice\\AdminDB - Copy\\ANU\\ANU\\Views\\Admin\\CreateDepartment.cshtml",
+              "RelativeDocumentMoniker": "ANU\\Views\\Admin\\CreateDepartment.cshtml",
+              "ToolTip": "E:\\FCAI Third Level\\\u062A\u0637\u0648\u064A\u0631 \u0627\u0644\u0628\u0631\u0645\u062C\u064A\u0627\u062A \u0648\u0627\u0644\u0645\u0645\u0627\u0631\u0633\u0629 \u0627\u0644\u0645\u0647\u0646\u064A\u0629 - Software Development and Professional Practice\\AdminDB - Copy\\ANU\\ANU\\Views\\Admin\\CreateDepartment.cshtml",
+              "RelativeToolTip": "ANU\\Views\\Admin\\CreateDepartment.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADsAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-29T16:15:53.439Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "ManageDepartments.cshtml",
+              "DocumentMoniker": "E:\\FCAI Third Level\\\u062A\u0637\u0648\u064A\u0631 \u0627\u0644\u0628\u0631\u0645\u062C\u064A\u0627\u062A \u0648\u0627\u0644\u0645\u0645\u0627\u0631\u0633\u0629 \u0627\u0644\u0645\u0647\u0646\u064A\u0629 - Software Development and Professional Practice\\AdminDB - Copy\\ANU\\ANU\\Views\\Admin\\ManageDepartments.cshtml",
+              "RelativeDocumentMoniker": "ANU\\Views\\Admin\\ManageDepartments.cshtml",
+              "ToolTip": "E:\\FCAI Third Level\\\u062A\u0637\u0648\u064A\u0631 \u0627\u0644\u0628\u0631\u0645\u062C\u064A\u0627\u062A \u0648\u0627\u0644\u0645\u0645\u0627\u0631\u0633\u0629 \u0627\u0644\u0645\u0647\u0646\u064A\u0629 - Software Development and Professional Practice\\AdminDB - Copy\\ANU\\ANU\\Views\\Admin\\ManageDepartments.cshtml",
+              "RelativeToolTip": "ANU\\Views\\Admin\\ManageDepartments.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADMAAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-29T16:15:23.809Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "DeleteFaculty.cshtml",
+              "DocumentMoniker": "E:\\FCAI Third Level\\\u062A\u0637\u0648\u064A\u0631 \u0627\u0644\u0628\u0631\u0645\u062C\u064A\u0627\u062A \u0648\u0627\u0644\u0645\u0645\u0627\u0631\u0633\u0629 \u0627\u0644\u0645\u0647\u0646\u064A\u0629 - Software Development and Professional Practice\\AdminDB - Copy\\ANU\\ANU\\Views\\Admin\\DeleteFaculty.cshtml",
+              "RelativeDocumentMoniker": "ANU\\Views\\Admin\\DeleteFaculty.cshtml",
+              "ToolTip": "E:\\FCAI Third Level\\\u062A\u0637\u0648\u064A\u0631 \u0627\u0644\u0628\u0631\u0645\u062C\u064A\u0627\u062A \u0648\u0627\u0644\u0645\u0645\u0627\u0631\u0633\u0629 \u0627\u0644\u0645\u0647\u0646\u064A\u0629 - Software Development and Professional Practice\\AdminDB - Copy\\ANU\\ANU\\Views\\Admin\\DeleteFaculty.cshtml",
+              "RelativeToolTip": "ANU\\Views\\Admin\\DeleteFaculty.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACwAAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-29T16:14:52.732Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "EditFaculty.cshtml",
+              "DocumentMoniker": "E:\\FCAI Third Level\\\u062A\u0637\u0648\u064A\u0631 \u0627\u0644\u0628\u0631\u0645\u062C\u064A\u0627\u062A \u0648\u0627\u0644\u0645\u0645\u0627\u0631\u0633\u0629 \u0627\u0644\u0645\u0647\u0646\u064A\u0629 - Software Development and Professional Practice\\AdminDB - Copy\\ANU\\ANU\\Views\\Admin\\EditFaculty.cshtml",
+              "RelativeDocumentMoniker": "ANU\\Views\\Admin\\EditFaculty.cshtml",
+              "ToolTip": "E:\\FCAI Third Level\\\u062A\u0637\u0648\u064A\u0631 \u0627\u0644\u0628\u0631\u0645\u062C\u064A\u0627\u062A \u0648\u0627\u0644\u0645\u0645\u0627\u0631\u0633\u0629 \u0627\u0644\u0645\u0647\u0646\u064A\u0629 - Software Development and Professional Practice\\AdminDB - Copy\\ANU\\ANU\\Views\\Admin\\EditFaculty.cshtml",
+              "RelativeToolTip": "ANU\\Views\\Admin\\EditFaculty.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-29T16:14:13.816Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "CreateFaculty.cshtml",
+              "DocumentMoniker": "E:\\FCAI Third Level\\\u062A\u0637\u0648\u064A\u0631 \u0627\u0644\u0628\u0631\u0645\u062C\u064A\u0627\u062A \u0648\u0627\u0644\u0645\u0645\u0627\u0631\u0633\u0629 \u0627\u0644\u0645\u0647\u0646\u064A\u0629 - Software Development and Professional Practice\\AdminDB - Copy\\ANU\\ANU\\Views\\Admin\\CreateFaculty.cshtml",
+              "RelativeDocumentMoniker": "ANU\\Views\\Admin\\CreateFaculty.cshtml",
+              "ToolTip": "E:\\FCAI Third Level\\\u062A\u0637\u0648\u064A\u0631 \u0627\u0644\u0628\u0631\u0645\u062C\u064A\u0627\u062A \u0648\u0627\u0644\u0645\u0645\u0627\u0631\u0633\u0629 \u0627\u0644\u0645\u0647\u0646\u064A\u0629 - Software Development and Professional Practice\\AdminDB - Copy\\ANU\\ANU\\Views\\Admin\\CreateFaculty.cshtml",
+              "RelativeToolTip": "ANU\\Views\\Admin\\CreateFaculty.cshtml",
+              "ViewState": "AgIAADAAAAAAAAAAAAAqwDsAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-29T16:13:32.044Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
+              "Title": "ManageFaculties.cshtml",
+              "DocumentMoniker": "E:\\FCAI Third Level\\\u062A\u0637\u0648\u064A\u0631 \u0627\u0644\u0628\u0631\u0645\u062C\u064A\u0627\u062A \u0648\u0627\u0644\u0645\u0645\u0627\u0631\u0633\u0629 \u0627\u0644\u0645\u0647\u0646\u064A\u0629 - Software Development and Professional Practice\\AdminDB - Copy\\ANU\\ANU\\Views\\Admin\\ManageFaculties.cshtml",
+              "RelativeDocumentMoniker": "ANU\\Views\\Admin\\ManageFaculties.cshtml",
+              "ToolTip": "E:\\FCAI Third Level\\\u062A\u0637\u0648\u064A\u0631 \u0627\u0644\u0628\u0631\u0645\u062C\u064A\u0627\u062A \u0648\u0627\u0644\u0645\u0645\u0627\u0631\u0633\u0629 \u0627\u0644\u0645\u0647\u0646\u064A\u0629 - Software Development and Professional Practice\\AdminDB - Copy\\ANU\\ANU\\Views\\Admin\\ManageFaculties.cshtml",
+              "RelativeToolTip": "ANU\\Views\\Admin\\ManageFaculties.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADMAAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-29T16:12:43.896Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "DeleteStaff.cshtml",
+              "DocumentMoniker": "E:\\FCAI Third Level\\\u062A\u0637\u0648\u064A\u0631 \u0627\u0644\u0628\u0631\u0645\u062C\u064A\u0627\u062A \u0648\u0627\u0644\u0645\u0645\u0627\u0631\u0633\u0629 \u0627\u0644\u0645\u0647\u0646\u064A\u0629 - Software Development and Professional Practice\\AdminDB - Copy\\ANU\\ANU\\Views\\Admin\\DeleteStaff.cshtml",
+              "RelativeDocumentMoniker": "ANU\\Views\\Admin\\DeleteStaff.cshtml",
+              "ToolTip": "E:\\FCAI Third Level\\\u062A\u0637\u0648\u064A\u0631 \u0627\u0644\u0628\u0631\u0645\u062C\u064A\u0627\u062A \u0648\u0627\u0644\u0645\u0645\u0627\u0631\u0633\u0629 \u0627\u0644\u0645\u0647\u0646\u064A\u0629 - Software Development and Professional Practice\\AdminDB - Copy\\ANU\\ANU\\Views\\Admin\\DeleteStaff.cshtml",
+              "RelativeToolTip": "ANU\\Views\\Admin\\DeleteStaff.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACcAAABFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-29T16:12:15.956Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 35,
+              "Title": "EditStaff.cshtml",
+              "DocumentMoniker": "E:\\FCAI Third Level\\\u062A\u0637\u0648\u064A\u0631 \u0627\u0644\u0628\u0631\u0645\u062C\u064A\u0627\u062A \u0648\u0627\u0644\u0645\u0645\u0627\u0631\u0633\u0629 \u0627\u0644\u0645\u0647\u0646\u064A\u0629 - Software Development and Professional Practice\\AdminDB - Copy\\ANU\\ANU\\Views\\Admin\\EditStaff.cshtml",
+              "RelativeDocumentMoniker": "ANU\\Views\\Admin\\EditStaff.cshtml",
+              "ToolTip": "E:\\FCAI Third Level\\\u062A\u0637\u0648\u064A\u0631 \u0627\u0644\u0628\u0631\u0645\u062C\u064A\u0627\u062A \u0648\u0627\u0644\u0645\u0645\u0627\u0631\u0633\u0629 \u0627\u0644\u0645\u0647\u0646\u064A\u0629 - Software Development and Professional Practice\\AdminDB - Copy\\ANU\\ANU\\Views\\Admin\\EditStaff.cshtml",
+              "RelativeToolTip": "ANU\\Views\\Admin\\EditStaff.cshtml",
+              "ViewState": "AgIAACEAAAAAAAAAAAAiwF0AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-29T16:11:07.055Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "CreateStaff.cshtml",
+              "DocumentMoniker": "E:\\FCAI Third Level\\\u062A\u0637\u0648\u064A\u0631 \u0627\u0644\u0628\u0631\u0645\u062C\u064A\u0627\u062A \u0648\u0627\u0644\u0645\u0645\u0627\u0631\u0633\u0629 \u0627\u0644\u0645\u0647\u0646\u064A\u0629 - Software Development and Professional Practice\\AdminDB - Copy\\ANU\\ANU\\Views\\Admin\\CreateStaff.cshtml",
+              "RelativeDocumentMoniker": "ANU\\Views\\Admin\\CreateStaff.cshtml",
+              "ToolTip": "E:\\FCAI Third Level\\\u062A\u0637\u0648\u064A\u0631 \u0627\u0644\u0628\u0631\u0645\u062C\u064A\u0627\u062A \u0648\u0627\u0644\u0645\u0645\u0627\u0631\u0633\u0629 \u0627\u0644\u0645\u0647\u0646\u064A\u0629 - Software Development and Professional Practice\\AdminDB - Copy\\ANU\\ANU\\Views\\Admin\\CreateStaff.cshtml",
+              "RelativeToolTip": "ANU\\Views\\Admin\\CreateStaff.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAFwAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-29T16:10:36.148Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 36,
+              "Title": "ManageStaff.cshtml",
+              "DocumentMoniker": "E:\\FCAI Third Level\\\u062A\u0637\u0648\u064A\u0631 \u0627\u0644\u0628\u0631\u0645\u062C\u064A\u0627\u062A \u0648\u0627\u0644\u0645\u0645\u0627\u0631\u0633\u0629 \u0627\u0644\u0645\u0647\u0646\u064A\u0629 - Software Development and Professional Practice\\AdminDB - Copy\\ANU\\ANU\\Views\\Admin\\ManageStaff.cshtml",
+              "RelativeDocumentMoniker": "ANU\\Views\\Admin\\ManageStaff.cshtml",
+              "ToolTip": "E:\\FCAI Third Level\\\u062A\u0637\u0648\u064A\u0631 \u0627\u0644\u0628\u0631\u0645\u062C\u064A\u0627\u062A \u0648\u0627\u0644\u0645\u0645\u0627\u0631\u0633\u0629 \u0627\u0644\u0645\u0647\u0646\u064A\u0629 - Software Development and Professional Practice\\AdminDB - Copy\\ANU\\ANU\\Views\\Admin\\ManageStaff.cshtml",
+              "RelativeToolTip": "ANU\\Views\\Admin\\ManageStaff.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADcAAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-29T16:08:19.177Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "AdminController.cs",
+              "DocumentMoniker": "E:\\FCAI Third Level\\\u062A\u0637\u0648\u064A\u0631 \u0627\u0644\u0628\u0631\u0645\u062C\u064A\u0627\u062A \u0648\u0627\u0644\u0645\u0645\u0627\u0631\u0633\u0629 \u0627\u0644\u0645\u0647\u0646\u064A\u0629 - Software Development and Professional Practice\\AdminDB - Copy\\ANU\\ANU\\Controllers\\AdminController.cs",
+              "RelativeDocumentMoniker": "ANU\\Controllers\\AdminController.cs",
+              "ToolTip": "E:\\FCAI Third Level\\\u062A\u0637\u0648\u064A\u0631 \u0627\u0644\u0628\u0631\u0645\u062C\u064A\u0627\u062A \u0648\u0627\u0644\u0645\u0645\u0627\u0631\u0633\u0629 \u0627\u0644\u0645\u0647\u0646\u064A\u0629 - Software Development and Professional Practice\\AdminDB - Copy\\ANU\\ANU\\Controllers\\AdminController.cs",
+              "RelativeToolTip": "ANU\\Controllers\\AdminController.cs",
+              "ViewState": "AgIAABwAAAAAAAAAAAAQwAMAAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-29T16:06:15.075Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "AuthService.cs",
+              "DocumentMoniker": "E:\\FCAI Third Level\\\u062A\u0637\u0648\u064A\u0631 \u0627\u0644\u0628\u0631\u0645\u062C\u064A\u0627\u062A \u0648\u0627\u0644\u0645\u0645\u0627\u0631\u0633\u0629 \u0627\u0644\u0645\u0647\u0646\u064A\u0629 - Software Development and Professional Practice\\AdminDB - Copy\\ANU\\ANU\\Services\\AuthService.cs",
+              "RelativeDocumentMoniker": "ANU\\Services\\AuthService.cs",
+              "ToolTip": "E:\\FCAI Third Level\\\u062A\u0637\u0648\u064A\u0631 \u0627\u0644\u0628\u0631\u0645\u062C\u064A\u0627\u062A \u0648\u0627\u0644\u0645\u0645\u0627\u0631\u0633\u0629 \u0627\u0644\u0645\u0647\u0646\u064A\u0629 - Software Development and Professional Practice\\AdminDB - Copy\\ANU\\ANU\\Services\\AuthService.cs",
+              "RelativeToolTip": "ANU\\Services\\AuthService.cs",
+              "ViewState": "AgIAAGIAAAAAAAAAAAAiwGYAAAAUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-29T16:05:30.524Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "E:\\FCAI Third Level\\\u062A\u0637\u0648\u064A\u0631 \u0627\u0644\u0628\u0631\u0645\u062C\u064A\u0627\u062A \u0648\u0627\u0644\u0645\u0645\u0627\u0631\u0633\u0629 \u0627\u0644\u0645\u0647\u0646\u064A\u0629 - Software Development and Professional Practice\\AdminDB - Copy\\ANU\\ANU\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "ANU\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "E:\\FCAI Third Level\\\u062A\u0637\u0648\u064A\u0631 \u0627\u0644\u0628\u0631\u0645\u062C\u064A\u0627\u062A \u0648\u0627\u0644\u0645\u0645\u0627\u0631\u0633\u0629 \u0627\u0644\u0645\u0647\u0646\u064A\u0629 - Software Development and Professional Practice\\AdminDB - Copy\\ANU\\ANU\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "ANU\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-29T14:46:25.384Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 37,
+              "Title": "Login.cshtml",
+              "DocumentMoniker": "E:\\FCAI Third Level\\\u062A\u0637\u0648\u064A\u0631 \u0627\u0644\u0628\u0631\u0645\u062C\u064A\u0627\u062A \u0648\u0627\u0644\u0645\u0645\u0627\u0631\u0633\u0629 \u0627\u0644\u0645\u0647\u0646\u064A\u0629 - Software Development and Professional Practice\\AdminDB - Copy\\ANU\\ANU\\Views\\Account\\Login.cshtml",
+              "RelativeDocumentMoniker": "ANU\\Views\\Account\\Login.cshtml",
+              "ToolTip": "E:\\FCAI Third Level\\\u062A\u0637\u0648\u064A\u0631 \u0627\u0644\u0628\u0631\u0645\u062C\u064A\u0627\u062A \u0648\u0627\u0644\u0645\u0645\u0627\u0631\u0633\u0629 \u0627\u0644\u0645\u0647\u0646\u064A\u0629 - Software Development and Professional Practice\\AdminDB - Copy\\ANU\\ANU\\Views\\Account\\Login.cshtml",
+              "RelativeToolTip": "ANU\\Views\\Account\\Login.cshtml",
+              "ViewState": "AgIAAH0AAAAAAAAAAAAqwIwAAAAYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-29T14:45:26.777Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 38,
+              "Title": "Register.cshtml",
+              "DocumentMoniker": "E:\\FCAI Third Level\\\u062A\u0637\u0648\u064A\u0631 \u0627\u0644\u0628\u0631\u0645\u062C\u064A\u0627\u062A \u0648\u0627\u0644\u0645\u0645\u0627\u0631\u0633\u0629 \u0627\u0644\u0645\u0647\u0646\u064A\u0629 - Software Development and Professional Practice\\AdminDB - Copy\\ANU\\ANU\\Views\\Students\\Register.cshtml",
+              "RelativeDocumentMoniker": "ANU\\Views\\Students\\Register.cshtml",
+              "ToolTip": "E:\\FCAI Third Level\\\u062A\u0637\u0648\u064A\u0631 \u0627\u0644\u0628\u0631\u0645\u062C\u064A\u0627\u062A \u0648\u0627\u0644\u0645\u0645\u0627\u0631\u0633\u0629 \u0627\u0644\u0645\u0647\u0646\u064A\u0629 - Software Development and Professional Practice\\AdminDB - Copy\\ANU\\ANU\\Views\\Students\\Register.cshtml",
+              "RelativeToolTip": "ANU\\Views\\Students\\Register.cshtml",
+              "ViewState": "AgIAAC0AAAAAAAAAAAAAADoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-29T14:33:58.411Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 39,
+              "Title": "_ViewImports.cshtml",
+              "DocumentMoniker": "E:\\FCAI Third Level\\\u062A\u0637\u0648\u064A\u0631 \u0627\u0644\u0628\u0631\u0645\u062C\u064A\u0627\u062A \u0648\u0627\u0644\u0645\u0645\u0627\u0631\u0633\u0629 \u0627\u0644\u0645\u0647\u0646\u064A\u0629 - Software Development and Professional Practice\\AdminDB - Copy\\ANU\\ANU\\Views\\_ViewImports.cshtml",
+              "RelativeDocumentMoniker": "ANU\\Views\\_ViewImports.cshtml",
+              "ToolTip": "E:\\FCAI Third Level\\\u062A\u0637\u0648\u064A\u0631 \u0627\u0644\u0628\u0631\u0645\u062C\u064A\u0627\u062A \u0648\u0627\u0644\u0645\u0645\u0627\u0631\u0633\u0629 \u0627\u0644\u0645\u0647\u0646\u064A\u0629 - Software Development and Professional Practice\\AdminDB - Copy\\ANU\\ANU\\Views\\_ViewImports.cshtml",
+              "RelativeToolTip": "ANU\\Views\\_ViewImports.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-29T14:32:55.306Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 40,
+              "Title": "_ViewStart.cshtml",
+              "DocumentMoniker": "E:\\FCAI Third Level\\\u062A\u0637\u0648\u064A\u0631 \u0627\u0644\u0628\u0631\u0645\u062C\u064A\u0627\u062A \u0648\u0627\u0644\u0645\u0645\u0627\u0631\u0633\u0629 \u0627\u0644\u0645\u0647\u0646\u064A\u0629 - Software Development and Professional Practice\\AdminDB - Copy\\ANU\\ANU\\Views\\_ViewStart.cshtml",
+              "RelativeDocumentMoniker": "ANU\\Views\\_ViewStart.cshtml",
+              "ToolTip": "E:\\FCAI Third Level\\\u062A\u0637\u0648\u064A\u0631 \u0627\u0644\u0628\u0631\u0645\u062C\u064A\u0627\u062A \u0648\u0627\u0644\u0645\u0645\u0627\u0631\u0633\u0629 \u0627\u0644\u0645\u0647\u0646\u064A\u0629 - Software Development and Professional Practice\\AdminDB - Copy\\ANU\\ANU\\Views\\_ViewStart.cshtml",
+              "RelativeToolTip": "ANU\\Views\\_ViewStart.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-29T14:32:44.221Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 41,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "E:\\FCAI Third Level\\\u062A\u0637\u0648\u064A\u0631 \u0627\u0644\u0628\u0631\u0645\u062C\u064A\u0627\u062A \u0648\u0627\u0644\u0645\u0645\u0627\u0631\u0633\u0629 \u0627\u0644\u0645\u0647\u0646\u064A\u0629 - Software Development and Professional Practice\\AdminDB - Copy\\ANU\\ANU\\Views\\Index.cshtml",
+              "RelativeDocumentMoniker": "ANU\\Views\\Index.cshtml",
+              "ToolTip": "E:\\FCAI Third Level\\\u062A\u0637\u0648\u064A\u0631 \u0627\u0644\u0628\u0631\u0645\u062C\u064A\u0627\u062A \u0648\u0627\u0644\u0645\u0645\u0627\u0631\u0633\u0629 \u0627\u0644\u0645\u0647\u0646\u064A\u0629 - Software Development and Professional Practice\\AdminDB - Copy\\ANU\\ANU\\Views\\Index.cshtml",
+              "RelativeToolTip": "ANU\\Views\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-29T14:32:21.06Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 42,
+              "Title": "Manage.cshtml",
+              "DocumentMoniker": "E:\\FCAI Third Level\\\u062A\u0637\u0648\u064A\u0631 \u0627\u0644\u0628\u0631\u0645\u062C\u064A\u0627\u062A \u0648\u0627\u0644\u0645\u0645\u0627\u0631\u0633\u0629 \u0627\u0644\u0645\u0647\u0646\u064A\u0629 - Software Development and Professional Practice\\AdminDB - Copy\\ANU\\ANU\\Views\\Manage.cshtml",
+              "RelativeDocumentMoniker": "ANU\\Views\\Manage.cshtml",
+              "ToolTip": "E:\\FCAI Third Level\\\u062A\u0637\u0648\u064A\u0631 \u0627\u0644\u0628\u0631\u0645\u062C\u064A\u0627\u062A \u0648\u0627\u0644\u0645\u0645\u0627\u0631\u0633\u0629 \u0627\u0644\u0645\u0647\u0646\u064A\u0629 - Software Development and Professional Practice\\AdminDB - Copy\\ANU\\ANU\\Views\\Manage.cshtml",
+              "RelativeToolTip": "ANU\\Views\\Manage.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-29T14:32:01.923Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "AccountController.cs",
+              "DocumentMoniker": "E:\\FCAI Third Level\\\u062A\u0637\u0648\u064A\u0631 \u0627\u0644\u0628\u0631\u0645\u062C\u064A\u0627\u062A \u0648\u0627\u0644\u0645\u0645\u0627\u0631\u0633\u0629 \u0627\u0644\u0645\u0647\u0646\u064A\u0629 - Software Development and Professional Practice\\AdminDB - Copy\\ANU\\ANU\\Controllers\\AccountController.cs",
+              "RelativeDocumentMoniker": "ANU\\Controllers\\AccountController.cs",
+              "ToolTip": "E:\\FCAI Third Level\\\u062A\u0637\u0648\u064A\u0631 \u0627\u0644\u0628\u0631\u0645\u062C\u064A\u0627\u062A \u0648\u0627\u0644\u0645\u0645\u0627\u0631\u0633\u0629 \u0627\u0644\u0645\u0647\u0646\u064A\u0629 - Software Development and Professional Practice\\AdminDB - Copy\\ANU\\ANU\\Controllers\\AccountController.cs",
+              "RelativeToolTip": "ANU\\Controllers\\AccountController.cs",
+              "ViewState": "AgIAABgAAAAAAAAAAAArwB0AAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-28T22:52:59.912Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "Dashboard.cshtml",
+              "DocumentMoniker": "E:\\FCAI Third Level\\\u062A\u0637\u0648\u064A\u0631 \u0627\u0644\u0628\u0631\u0645\u062C\u064A\u0627\u062A \u0648\u0627\u0644\u0645\u0645\u0627\u0631\u0633\u0629 \u0627\u0644\u0645\u0647\u0646\u064A\u0629 - Software Development and Professional Practice\\AdminDB - Copy\\ANU\\ANU\\Views\\Admin\\Dashboard.cshtml",
+              "RelativeDocumentMoniker": "ANU\\Views\\Admin\\Dashboard.cshtml",
+              "ToolTip": "E:\\FCAI Third Level\\\u062A\u0637\u0648\u064A\u0631 \u0627\u0644\u0628\u0631\u0645\u062C\u064A\u0627\u062A \u0648\u0627\u0644\u0645\u0645\u0627\u0631\u0633\u0629 \u0627\u0644\u0645\u0647\u0646\u064A\u0629 - Software Development and Professional Practice\\AdminDB - Copy\\ANU\\ANU\\Views\\Admin\\Dashboard.cshtml",
+              "RelativeToolTip": "ANU\\Views\\Admin\\Dashboard.cshtml",
+              "ViewState": "AgIAADAAAAAAAAAAAAAAADcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-28T22:52:24.262Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

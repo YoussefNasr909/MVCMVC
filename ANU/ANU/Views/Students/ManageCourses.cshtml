@@ -1,0 +1,115 @@
+﻿@model User
+@{
+    ViewData["Title"] = "Manage Courses";
+    ViewData["HeaderClass"] = "sub-header";
+    ViewData["HeaderContent"] = "<h1>Manage Courses</h1>";
+}
+
+<section class="about-us">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-10 offset-md-1">
+                <div class="card">
+                    <div class="card-header bg-primary text-white">
+                        <h3 class="mb-0"><i class="fas fa-book me-2"></i>Manage Your Courses</h3>
+                    </div>
+                    <div class="card-body">
+                        <h4>Enrolled Courses</h4>
+                        @if (ViewBag.EnrolledCourseIds != null && ViewBag.EnrolledCourseIds.Count > 0)
+                        {
+                            <div class="table-responsive">
+                                <table class="table table-striped">
+                                    <thead>
+                                        <tr>
+                                            <th>Code</th>
+                                            <th>Name</th>
+                                            <th>Credits</th>
+                                            <th>Department</th>
+                                            <th>Action</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        @foreach (var course in ViewBag.EnrolledCourses)
+                                        {
+                                            <tr>
+                                                <td>@course.Code</td>
+                                                <td>@course.Name</td>
+                                                <td>@course.Credits</td>
+                                                <td>@course.Department.Name</td>
+                                                <td>
+                                                    <form asp-action="DropCourse" method="post">
+                                                        <input type="hidden" name="courseId" value="@course.Id" />
+                                                        <button type="submit" class="btn btn-danger btn-sm" onclick="return confirm('Are you sure you want to drop this course?')">
+                                                            <i class="fas fa-trash-alt me-1"></i> Drop
+                                                        </button>
+                                                    </form>
+                                                </td>
+                                            </tr>
+                                        }
+                                    </tbody>
+                                </table>
+                            </div>
+                        }
+                        else
+                        {
+                            <div class="alert alert-info">
+                                <i class="fas fa-info-circle me-2"></i> You are not enrolled in any courses yet.
+                            </div>
+                        }
+
+                        <hr class="my-4" />
+
+                        <h4>Available Courses</h4>
+                        @if (ViewBag.AvailableCourses != null && ViewBag.AvailableCourses.Count > 0)
+                        {
+                            <div class="table-responsive">
+                                <table class="table table-striped">
+                                    <thead>
+                                        <tr>
+                                            <th>Code</th>
+                                            <th>Name</th>
+                                            <th>Credits</th>
+                                            <th>Department</th>
+                                            <th>Action</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        @foreach (var course in ViewBag.AvailableCourses)
+                                        {
+                                            <tr>
+                                                <td>@course.Code</td>
+                                                <td>@course.Name</td>
+                                                <td>@course.Credits</td>
+                                                <td>@course.Department.Name</td>
+                                                <td>
+                                                    <form asp-action="EnrollCourse" method="post">
+                                                        <input type="hidden" name="courseId" value="@course.Id" />
+                                                        <button type="submit" class="btn btn-success btn-sm">
+                                                            <i class="fas fa-plus-circle me-1"></i> Enroll
+                                                        </button>
+                                                    </form>
+                                                </td>
+                                            </tr>
+                                        }
+                                    </tbody>
+                                </table>
+                            </div>
+                        }
+                        else
+                        {
+                            <div class="alert alert-info">
+                                <i class="fas fa-info-circle me-2"></i> No available courses for your department.
+                            </div>
+                        }
+
+                        <div class="mt-4">
+                            <a asp-action="Profile" class="btn btn-secondary">
+                                <i class="fas fa-arrow-left me-1"></i> Back to Profile
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>

@@ -1,0 +1,50 @@
+@model Staff
+@{
+    ViewData["Title"] = Model.FullName;
+    ViewData["HeaderClass"] = "sub-header";
+    ViewData["HeaderContent"] = $"<h1>{Model.Title} {Model.FullName}</h1>";
+}
+
+<section class="about-us">
+    <div class="row">
+        <div class="about-col">
+            <h1>@Model.Title @Model.FullName</h1>
+            <p>@Model.Department, @Model.Faculty</p>
+            
+            <h3>Academic Background</h3>
+            <p>@Model.Education</p>
+            
+            <h3>Research Interests</h3>
+            <ul>
+                @foreach (var interest in Model.ResearchInterests)
+                {
+                    <li>@interest</li>
+                }
+            </ul>
+            
+            <h3>Courses Taught</h3>
+            <ul>
+                @foreach (var course in Model.CoursesTaught)
+                {
+                    <li>@course.Name (@course.Code)</li>
+                }
+            </ul>
+            
+            <h3>Publications</h3>
+            <ul>
+                @foreach (var publication in Model.Publications)
+                {
+                    <li>@publication</li>
+                }
+            </ul>
+            
+            <h3>Contact Information</h3>
+            <p>Email: @Model.Email</p>
+            <p>Office: @Model.Office</p>
+            <p>Office Hours: @Model.OfficeHours</p>
+        </div>
+        <div class="about-col">
+            <img src="@Model.ProfileImageUrl" alt="@Model.FullName">
+        </div>
+    </div>
+</section>

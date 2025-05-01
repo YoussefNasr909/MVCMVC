@@ -1,0 +1,118 @@
+﻿@model User
+@{
+    ViewData["Title"] = "Edit Profile";
+    ViewData["HeaderClass"] = "sub-header";
+    ViewData["HeaderContent"] = "<h1>Edit Profile</h1>";
+}
+
+<section class="about-us">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-8 offset-md-2">
+                <div class="card">
+                    <div class="card-header bg-primary text-white">
+                        <h3 class="mb-0"><i class="fas fa-user-edit me-2"></i>Edit Your Profile</h3>
+                    </div>
+                    <div class="card-body">
+                        <form asp-action="EditProfile" method="post" enctype="multipart/form-data">
+                            <input type="hidden" asp-for="Id" />
+                            <input type="hidden" asp-for="Role" />
+                            <input type="hidden" asp-for="DateRegistered" />
+                            <input type="hidden" asp-for="PasswordHash" />
+
+                            <div class="row mb-3">
+                                <div class="col-md-6">
+                                    <div class="form-group">
+                                        <label asp-for="FirstName" class="control-label">First Name</label>
+                                        <input asp-for="FirstName" class="form-control" required />
+                                        <span asp-validation-for="FirstName" class="text-danger"></span>
+                                    </div>
+                                </div>
+                                <div class="col-md-6">
+                                    <div class="form-group">
+                                        <label asp-for="LastName" class="control-label">Last Name</label>
+                                        <input asp-for="LastName" class="form-control" required />
+                                        <span asp-validation-for="LastName" class="text-danger"></span>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="form-group mb-3">
+                                <label asp-for="Email" class="control-label">Email</label>
+                                <input asp-for="Email" class="form-control" required />
+                                <span asp-validation-for="Email" class="text-danger"></span>
+                            </div>
+
+                            <div class="form-group mb-3">
+                                <label for="newPassword" class="control-label">New Password (leave blank to keep current)</label>
+                                <input type="password" id="newPassword" name="newPassword" class="form-control" />
+                            </div>
+
+                            <div class="row mb-3">
+                                <div class="col-md-6">
+                                    <div class="form-group">
+                                        <label asp-for="FacultyId" class="control-label">Faculty</label>
+                                        <select asp-for="FacultyId" class="form-select" asp-items="@(new SelectList(ViewBag.Faculties, "Id", "Name"))">
+                                            <option value="">-- Select Faculty --</option>
+                                        </select>
+                                        <span asp-validation-for="FacultyId" class="text-danger"></span>
+                                    </div>
+                                </div>
+                                <div class="col-md-6">
+                                    <div class="form-group">
+                                        <label asp-for="DepartmentId" class="control-label">Department</label>
+                                        <select asp-for="DepartmentId" class="form-select" asp-items="@(new SelectList(ViewBag.Departments, "Id", "Name"))">
+                                            <option value="">-- Select Department --</option>
+                                        </select>
+                                        <span asp-validation-for="DepartmentId" class="text-danger"></span>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="row mb-3">
+                                <div class="col-md-6">
+                                    <div class="form-group">
+                                        <label asp-for="StudentId" class="control-label">Student ID</label>
+                                        <input asp-for="StudentId" class="form-control" />
+                                        <span asp-validation-for="StudentId" class="text-danger"></span>
+                                    </div>
+                                </div>
+                                <div class="col-md-6">
+                                    <div class="form-group">
+                                        <label asp-for="Year" class="control-label">Year</label>
+                                        <select asp-for="Year" class="form-select">
+                                            <option value="">-- Select Year --</option>
+                                            <option value="1">First Year</option>
+                                            <option value="2">Second Year</option>
+                                            <option value="3">Third Year</option>
+                                            <option value="4">Fourth Year</option>
+                                            <option value="5">Fifth Year</option>
+                                        </select>
+                                        <span asp-validation-for="Year" class="text-danger"></span>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="form-group mb-3">
+                                <label for="ProfileImage" class="control-label">Profile Image</label>
+                                <input type="file" id="ProfileImage" name="ProfileImage" class="form-control" accept="image/*" />
+                                @if (!string.IsNullOrEmpty(Model.ProfileImageUrl))
+                                {
+                                    <div class="mt-2">
+                                        <img src="@Model.ProfileImageUrl" alt="Current profile image" class="img-thumbnail" style="max-height: 100px;" />
+                                        <p class="text-muted">Current profile image</p>
+                                    </div>
+                                }
+                            </div>
+
+                            <div class="form-group d-flex justify-content-between">
+                                <a asp-action="Profile" class="btn btn-secondary">Back to Profile</a>
+                                <button type="submit" class="btn btn-primary">Save Changes</button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>

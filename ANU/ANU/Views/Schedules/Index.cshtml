@@ -1,0 +1,51 @@
+@model IEnumerable<Schedule>
+@{
+    ViewData["Title"] = "Weekly Schedule";
+    ViewData["HeaderClass"] = "sub-header";
+    ViewData["HeaderContent"] = "<h1>Weekly Schedule</h1>";
+}
+
+<section class="about-us">
+    <div class="schedule-container">
+        <h1>Your Weekly Schedule</h1>
+        
+        <table class="schedule-table">
+            <thead>
+                <tr>
+                    <th>Time</th>
+                    <th>Sunday</th>
+                    <th>Monday</th>
+                    <th>Tuesday</th>
+                    <th>Wednesday</th>
+                    <th>Thursday</th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (var timeSlot in ViewBag.TimeSlots)
+                {
+                    <tr>
+                        <td>@timeSlot</td>
+                        @foreach (var day in ViewBag.Days)
+                        {
+                            <td>
+                                @{
+                                    var session = Model.FirstOrDefault(s => s.Day == day && s.TimeSlot == timeSlot);
+                                    if (session != null)
+                                    {
+                                        <div class="schedule-item">
+                                            <strong>@session.CourseName</strong>
+                                            <div>@session.Location</div>
+                                            <div>@session.InstructorName</div>
+                                        </div>
+                                    }
+                                }
+                            </td>
+                        }
+                    </tr>
+                }
+            </tbody>
+        </table>
+        
+        <a href="#" class="btn">Download Schedule</a>
+    </div>
+</section>

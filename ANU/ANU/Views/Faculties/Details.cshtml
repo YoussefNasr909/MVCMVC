@@ -1,0 +1,29 @@
+@model ANU.Models.Faculty
+@{
+    ViewData["Title"] = Model.Name;
+    ViewData["HeaderClass"] = "sub-header";
+    ViewData["HeaderContent"] = $"<h1>{Model.Name}</h1>";
+}
+
+<section class="about-us">
+    <div class="row">
+        <div class="about-col">
+            <h1>@Model.Name</h1>
+            <p>@Model.Description</p>
+            <p>@Model.FullDescription</p>
+
+            <h3>Programs Offered</h3>
+            <ul>
+                @foreach (var program in Model.Programs)
+                {
+                    <li>@program.Name</li>
+                }
+            </ul>
+
+            <a asp-controller="Departments" asp-action="Index" asp-route-facultyId="@Model.Id" class="btn">View Departments</a>
+        </div>
+        <div class="about-col">
+            <img src="@Model.ImageUrl">
+        </div>
+    </div>
+</section>

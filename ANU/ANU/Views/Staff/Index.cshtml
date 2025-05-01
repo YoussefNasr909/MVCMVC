@@ -1,0 +1,54 @@
+@model IEnumerable<Staff>
+@{
+    ViewData["Title"] = "Staff Directory";
+    ViewData["HeaderClass"] = "sub-header";
+    ViewData["HeaderContent"] = "<h1>Staff Directory</h1>";
+}
+
+<section class="fac">
+    <h1>Our Academic Staff</h1>
+    <p>Meet our distinguished faculty members who are dedicated to excellence in teaching and research.</p>
+
+    <div class="staff-filter">
+        <form asp-controller="Staff" asp-action="Index" method="get">
+            <div class="form-group">
+                <label for="facultyId">Faculty</label>
+                <select name="facultyId" id="facultyId" class="form-control">
+                    <option value="">All Faculties</option>
+                    @foreach (var faculty in ViewBag.Faculties)
+                    {
+                        bool isSelected = ViewBag.SelectedFaculty == faculty.Value;
+                        <option value="@faculty.Value" selected="@isSelected">@faculty.Text</option>
+                    }
+                </select>
+            </div>
+
+            <div class="form-group">
+                <label for="departmentId">Department</label>
+                <select name="departmentId" id="departmentId" class="form-control">
+                    <option value="">All Departments</option>
+                    @foreach (var department in ViewBag.Departments)
+                    {
+                        bool isSelected = ViewBag.SelectedDepartment == department.Value;
+                        <option value="@department.Value" selected="@isSelected">@department.Text</option>
+                    }
+                </select>
+            </div>
+
+            <button type="submit" class="btn">Filter</button>
+        </form>
+    </div>
+
+    <div class="staff-grid">
+        @foreach (var staff in Model)
+        {
+            <div class="staff-card">
+                <img src="@staff.ProfileImageUrl" alt="@staff.FullName">
+                <h3>@staff.FullName</h3>
+                <p>@staff.Title</p>
+                <p>@staff.Department</p>
+                <a asp-controller="Staff" asp-action="Details" asp-route-id="@staff.Id" class="btn">View Profile</a>
+            </div>
+        }
+    </div>
+</section>

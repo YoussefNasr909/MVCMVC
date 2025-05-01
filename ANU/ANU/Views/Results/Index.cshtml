@@ -1,0 +1,72 @@
+@model ResultSearchViewModel
+@{
+    ViewData["Title"] = "Exam Results";
+    ViewData["HeaderClass"] = "sub-header";
+    ViewData["HeaderContent"] = "<h1>Exam Results</h1>";
+}
+
+<section class="about-us">
+    <div class="row">
+        <div class="about-col">
+            <h1>Search Your Results</h1>
+            
+            <form asp-controller="Results" asp-action="Index" method="post">
+                <div class="form-group">
+                    <label asp-for="StudentId">Student ID</label>
+                    <input asp-for="StudentId" class="form-control" />
+                    <span asp-validation-for="StudentId" class="text-danger"></span>
+                </div>
+                
+                <div class="form-group">
+                    <label asp-for="Semester">Semester</label>
+                    <select asp-for="Semester" class="form-control">
+                        <option value="">-- Select Semester --</option>
+                        <option value="Fall 2023">Fall 2023</option>
+                        <option value="Spring 2024">Spring 2024</option>
+                        <option value="Summer 2024">Summer 2024</option>
+                    </select>
+                </div>
+                
+                <button type="submit" class="btn">Search Results</button>
+            </form>
+            
+            @if (ViewBag.Results != null)
+            {
+                <h2>Results for @ViewBag.StudentName</h2>
+                <h3>@Model.Semester</h3>
+                
+                <table class="results-table">
+                    <thead>
+                        <tr>
+                            <th>Course Code</th>
+                            <th>Course Name</th>
+                            <th>Grade</th>
+                            <th>GPA</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        @foreach (var result in ViewBag.Results)
+                        {
+                            <tr>
+                                <td>@result.CourseCode</td>
+                                <td>@result.CourseName</td>
+                                <td>@result.Grade</td>
+                                <td>@result.GPA</td>
+                            </tr>
+                        }
+                    </tbody>
+                </table>
+                
+                <div class="summary">
+                    <p><strong>Semester GPA:</strong> @ViewBag.SemesterGPA</p>
+                    <p><strong>Cumulative GPA:</strong> @ViewBag.CumulativeGPA</p>
+                </div>
+                
+                <a asp-controller="Results" asp-action="Details" asp-route-studentId="@Model.StudentId" asp-route-semester="@Model.Semester" class="btn">View Detailed Results</a>
+            }
+        </div>
+        <div class="about-col">
+            <img src="~/css/anu/results.jpg">
+        </div>
+    </div>
+</section>

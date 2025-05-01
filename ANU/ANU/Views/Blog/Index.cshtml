@@ -1,0 +1,52 @@
+@model IEnumerable<BlogPost>
+@{
+    ViewData["Title"] = "Blog";
+    ViewData["HeaderClass"] = "sub-header";
+    ViewData["HeaderContent"] = "<h1>University Blog</h1>";
+}
+
+<section class="fac">
+    <h1>University Blog</h1>
+    <p>Insights, stories, and perspectives from our university community.</p>
+    
+    <div class="blog-categories">
+        <a asp-controller="Blog" asp-action="Index" class="btn @(ViewBag.Category == null ? "active" : "")">All</a>
+        @foreach (var category in ViewBag.Categories)
+        {
+            <a asp-controller="Blog" asp-action="Index" asp-route-category="@category" class="btn @(ViewBag.Category == category ? "active" : "")">@category</a>
+        }
+    </div>
+    
+    <div class="blog-grid">
+        @foreach (var post in Model)
+        {
+            <div class="blog-card">
+                <img src="@post.ImageUrl" alt="@post.Title">
+                <div class="blog-content">
+                    <span class="blog-category">@post.Category</span>
+                    <h3>@post.Title</h3>
+                    <p class="blog-author">By @post.Author | @post.PublishedDate.ToString("MMMM dd, yyyy")</p>
+                    <p>@post.Summary</p>
+                    <a asp-controller="Blog" asp-action="Details" asp-route-id="@post.Id" class="btn">Read More</a>
+                </div>
+            </div>
+        }
+    </div>
+    
+    <div class="pagination">
+        @if (ViewBag.CurrentPage > 1)
+        {
+            <a asp-controller="Blog" asp-action="Index" asp-route-page="@(ViewBag.CurrentPage - 1)" asp-route-category="@ViewBag.Category" class="btn">Previous</a>
+        }
+        
+        @for (int i = 1; i <= ViewBag.TotalPages; i++)
+        {
+            <a asp-controller="Blog" asp-action="Index" asp-route-page="@i" asp-route-category="@ViewBag.Category" class="btn @(ViewBag.CurrentPage == i ? "active" : "")">@i</a>
+        }
+        
+        @if (ViewBag.CurrentPage < ViewBag.TotalPages)
+        {
+            <a asp-controller="Blog" asp-action="Index" asp-route-page="@(ViewBag.CurrentPage + 1)" asp-route-category="@ViewBag.Category" class="btn">Next</a>
+        }
+    </div>
+</section>

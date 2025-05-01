@@ -1,0 +1,22 @@
+@model IEnumerable<Faculty>
+@{
+    ViewData["Title"] = "Faculties";
+    ViewData["HeaderClass"] = "sub-header";
+    ViewData["HeaderContent"] = "<h1>Our Faculties</h1>";
+}
+
+<section class="fac">
+    <h1>Faculties We Offer</h1>
+    <p>Assiut National University in New Assiut City presents many distinguished academic programs during the upcoming academic year through (Engineering, Medical, Humanities and Social Sciences)</p>
+
+    <div class="row">
+        @foreach (var faculty in Model)
+        {
+            <div class="fac-col">
+                <h3>@faculty.Name</h3>
+                <p>@faculty.Description</p>
+                <a asp-controller="Faculties" asp-action="Details" asp-route-id="@faculty.Id" class="btn">Learn More</a>
+            </div>
+        }
+    </div>
+</section>

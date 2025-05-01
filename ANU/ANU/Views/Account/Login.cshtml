@@ -1,0 +1,156 @@
+﻿@model LoginViewModel
+@{
+    ViewData["Title"] = "Account";
+    ViewData["HeaderClass"] = "sub-header";
+    ViewData["HeaderContent"] = "<h1>Account</h1>";
+}
+
+<section class="about-us">
+    <div class="row justify-content-center">
+        <div class="col-md-8 col-lg-6">
+            <div class="card shadow">
+                <div class="card-header bg-transparent pb-0">
+                    <ul class="nav nav-tabs card-header-tabs" id="auth-tabs" role="tablist">
+                        <li class="nav-item" role="presentation">
+                            <button class="nav-link active" id="login-tab" data-bs-toggle="tab" data-bs-target="#login-tab-pane" type="button" role="tab" aria-controls="login-tab-pane" aria-selected="true">Login</button>
+                        </li>
+                        <li class="nav-item" role="presentation">
+                            <button class="nav-link" id="register-tab" data-bs-toggle="tab" data-bs-target="#register-tab-pane" type="button" role="tab" aria-controls="register-tab-pane" aria-selected="false">Register</button>
+                        </li>
+                    </ul>
+                </div>
+                <div class="card-body">
+                    <div class="tab-content" id="auth-tabs-content">
+                        <!-- Login Tab -->
+                        <div class="tab-pane fade show active" id="login-tab-pane" role="tabpanel" aria-labelledby="login-tab" tabindex="0">
+                            <h3 class="card-title text-center mb-4">Welcome Back</h3>
+
+                            @if (!string.IsNullOrEmpty(ViewData["LoginError"] as string))
+                            {
+                                <div class="alert alert-danger">
+                                    @ViewData["LoginError"]
+                                </div>
+                            }
+
+                            <form asp-controller="Account" asp-action="Login" method="post">
+                                @Html.AntiForgeryToken()
+                                <div class="mb-3">
+                                    <label asp-for="Email" class="form-label">Email</label>
+                                    <div class="input-group">
+                                        <span class="input-group-text"><i class="fas fa-envelope"></i></span>
+                                        <input asp-for="Email" class="form-control" placeholder="Enter your email" />
+                                    </div>
+                                    <span asp-validation-for="Email" class="text-danger"></span>
+                                </div>
+
+                                <div class="mb-3">
+                                    <label asp-for="Password" class="form-label">Password</label>
+                                    <div class="input-group">
+                                        <span class="input-group-text"><i class="fas fa-lock"></i></span>
+                                        <input asp-for="Password" class="form-control" placeholder="Enter your password" />
+                                    </div>
+                                    <span asp-validation-for="Password" class="text-danger"></span>
+                                </div>
+
+                                <div class="mb-3 form-check">
+                                    <input asp-for="RememberMe" class="form-check-input" />
+                                    <label asp-for="RememberMe" class="form-check-label">Remember me</label>
+                                </div>
+
+                                <div class="d-grid gap-2">
+                                    <button type="submit" class="btn btn-primary">Login</button>
+                                </div>
+                            </form>
+                        </div>
+
+                        <!-- Register Tab -->
+                        <div class="tab-pane fade" id="register-tab-pane" role="tabpanel" aria-labelledby="register-tab" tabindex="0">
+                            <h3 class="card-title text-center mb-4">Create an Account</h3>
+
+                            @if (!string.IsNullOrEmpty(ViewData["RegisterError"] as string))
+                            {
+                                <div class="alert alert-danger">
+                                    @ViewData["RegisterError"]
+                                </div>
+                            }
+
+                            <form asp-controller="Account" asp-action="Register" method="post">
+                                @Html.AntiForgeryToken()
+                                <div class="row mb-3">
+                                    <div class="col-md-6">
+                                        <label for="FirstName" class="form-label">First Name</label>
+                                        <input type="text" id="FirstName" name="FirstName" class="form-control" placeholder="Enter your first name" required />
+                                    </div>
+                                    <div class="col-md-6">
+                                        <label for="LastName" class="form-label">Last Name</label>
+                                        <input type="text" id="LastName" name="LastName" class="form-control" placeholder="Enter your last name" required />
+                                    </div>
+                                </div>
+
+                                <div class="mb-3">
+                                    <label for="RegisterEmail" class="form-label">Email</label>
+                                    <div class="input-group">
+                                        <span class="input-group-text"><i class="fas fa-envelope"></i></span>
+                                        <input type="email" id="RegisterEmail" name="Email" class="form-control" placeholder="Enter your email" required />
+                                    </div>
+                                </div>
+
+                                <div class="mb-3">
+                                    <label for="RegisterPassword" class="form-label">Password</label>
+                                    <div class="input-group">
+                                        <span class="input-group-text"><i class="fas fa-lock"></i></span>
+                                        <input type="password" id="RegisterPassword" name="Password" class="form-control" placeholder="Enter your password" required minlength="6" />
+                                    </div>
+                                    <small class="form-text text-muted">Password must be at least 6 characters long.</small>
+                                </div>
+
+                                <div class="mb-3">
+                                    <label for="ConfirmPassword" class="form-label">Confirm Password</label>
+                                    <div class="input-group">
+                                        <span class="input-group-text"><i class="fas fa-lock"></i></span>
+                                        <input type="password" id="ConfirmPassword" name="ConfirmPassword" class="form-control" placeholder="Confirm your password" required />
+                                    </div>
+                                </div>
+
+                                <div class="d-grid gap-2">
+                                    <button type="submit" class="btn btn-success">Register</button>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+@section Scripts {
+    @{
+        await Html.RenderPartialAsync("_ValidationScriptsPartial");
+    }
+    <script>
+        // Auto-switch to register tab if there's a register error
+        document.addEventListener('DOMContentLoaded', function() {
+        @if (!string.IsNullOrEmpty(ViewData["RegisterError"] as string))
+        {
+            <text>
+                        var registerTab = document.getElementById('register-tab');
+                        if (registerTab) {
+                            var tabInstance = new bootstrap.Tab(registerTab);
+                            tabInstance.show();
+                        }
+            </text>
+        }
+
+            // Handle URL parameter to switch tabs
+            const urlParams = new URLSearchParams(window.location.search);
+            if (urlParams.get('tab') === 'register') {
+                var registerTab = document.getElementById('register-tab');
+                if (registerTab) {
+                    var tabInstance = new bootstrap.Tab(registerTab);
+                    tabInstance.show();
+                }
+            }
+        });
+    </script>
+}

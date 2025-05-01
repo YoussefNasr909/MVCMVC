@@ -1,0 +1,75 @@
+﻿@model Department
+@{
+    ViewData["Title"] = Model.Name;
+    ViewData["HeaderClass"] = "sub-header";
+    ViewData["HeaderContent"] = $"<h1>{Model.Name}</h1>";
+}
+
+<section class="about-us">
+    <div class="row">
+        <div class="about-col">
+            <h1>@Model.Name</h1>
+            <p>@Model.Description</p>
+
+            <h3>About the Department</h3>
+            <p>The @Model.Name department at Assiut National University is committed to providing high-quality education and research opportunities in the field. Our faculty members are experts in their respective areas and are dedicated to student success.</p>
+
+            <h3>Programs Offered</h3>
+            <ul>
+                <li>Bachelor's Degree in @Model.Name</li>
+                <li>Master's Degree in @Model.Name</li>
+                <li>PhD in @Model.Name</li>
+            </ul>
+
+            <h3>Career Opportunities</h3>
+            <p>Graduates from our @Model.Name program have excellent career prospects in various industries including:</p>
+            <ul>
+                <li>Research and Development</li>
+                <li>Education</li>
+                <li>Industry</li>
+                <li>Government</li>
+            </ul>
+
+            <a href="#" class="btn">Apply Now</a>
+            <a asp-controller="Departments" asp-action="Index" asp-route-facultyId="@Model.FacultyId" class="btn">Back to Departments</a>
+        </div>
+        <div class="about-col">
+            <img src="~/css/anu/department-@(Model.Id).jpg" onerror="this.src='/css/anu/campus1.jpg'">
+
+            <div class="department-stats">
+                <div class="stat-item">
+                    <h4>Students</h4>
+                    <p>500+</p>
+                </div>
+                <div class="stat-item">
+                    <h4>Faculty</h4>
+                    <p>25+</p>
+                </div>
+                <div class="stat-item">
+                    <h4>Research Projects</h4>
+                    <p>30+</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="fac">
+    <h1>Courses Offered</h1>
+    <p>The @Model.Name department offers a wide range of courses to provide students with comprehensive knowledge in the field.</p>
+
+    <div class="row">
+        <div class="fac-col">
+            <h3>Core Courses</h3>
+            <p>Fundamental courses that provide the essential knowledge and skills in @Model.Name.</p>
+        </div>
+        <div class="fac-col">
+            <h3>Elective Courses</h3>
+            <p>Specialized courses that allow students to explore specific areas of interest within @Model.Name.</p>
+        </div>
+        <div class="fac-col">
+            <h3>Research Courses</h3>
+            <p>Advanced courses focused on research methodologies and current research topics in @Model.Name.</p>
+        </div>
+    </div>
+</section>
